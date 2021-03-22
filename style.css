@@ -1,0 +1,146 @@
+html {
+	font-size: 62.5%;
+	font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+html,body {
+	height: 100%;
+}
+
+body {
+	background : url(gazou/kabe.jpg) fixed ;
+	font-size: 16px; font-size: 1.6rem;
+	line-height : 20px ; line-height : 2.0rem ;
+	margin: 0px;
+	padding: 0px;
+}
+
+a { text-decoration : none ;}
+
+a:hover { text-decoration : underline ;}
+
+table {
+	border : #000000 solid 1px ;
+	border-spacing: 0px;
+	border-radius: 3px;
+}
+
+th,td {
+	border : none;
+	background-color: #FFFFFF;
+	padding : 5px; padding : 0.5rem ;
+}
+
+th {
+	font-weight: normal;
+	text-align: left;
+}
+/* -----------------------
+  左上角丸　最初の行の最初のセル
+----------------------- */
+tr:first-child th:first-child,
+tr:first-child td:first-child {
+	border-radius: 3px 0 0 0;
+}
+/* -----------------------
+  右上角丸　最初の行の最後のセル
+----------------------- */
+tr:first-child th:last-child,
+tr:first-child td:last-child {
+	border-radius: 0 3px 0 0;
+}
+
+/* -----------------------
+  左下角丸　最後の行の最初のセル
+----------------------- */
+tr:last-child th:first-child,
+tr:last-child td:first-child {
+	border-radius: 0 0 0 3px;
+}
+/* -----------------------
+  右下角丸　最後の行の最後のセル
+----------------------- */
+tr:last-child th:last-child,
+tr:last-child td:last-child {
+	border-radius: 0 0 3px 0;
+}
+/* --------------------------------------
+  左右上各丸　最初の行にセルが1つしかない時用
+----------------------------------------- */
+tr:first-child th:only-child,
+tr:first-child td:only-child{
+	border-radius: 3px 3px 0 0;
+}
+/* --------------------------------------
+  左右上各丸　最後の行にセルが1つしかない時用
+----------------------------------------- */
+tr:last-child td:only-child{
+	border-radius: 0 0 3px 3px;
+}
+/* ここまでテーブル関係（全般） */
+
+
+.container {
+	width : 80%;
+	margin : 30px auto;
+}
+
+.alert {
+	color : #FF0000 ;
+	font-weight : bold;
+}
+
+.rankS {
+	color : #FFB700 ;
+	font-weight : bold ;
+	font-size: 24px; font-size: 2.4rem;
+	line-height : 28px ; line-height : 2.8rem;
+}
+
+.rankA {
+	color : #00CC00 ;
+	font-weight : bold ;
+	font-size: 24px; font-size: 2.4rem;
+	line-height : 28px ; line-height : 2.8rem;
+}
+
+.rankB {
+	color : #0000FF ;
+	font-weight : bold ;
+	font-size: 24px; font-size: 2.4rem;
+	line-height : 28px ; line-height : 2.8rem;
+}
+
+.rankC {
+	color : #FF00FF ;
+	font-weight : bold ;
+	font-size: 24px; font-size: 2.4rem;
+	line-height : 28px ; line-height : 2.8rem;
+}
+
+.rankD {
+	color : #FF0000 ;
+	font-weight : bold ;
+	font-size: 24px; font-size: 2.4rem;
+	line-height : 28px ; line-height : 2.8rem;
+}
+
+.rankE {
+	color : #999999 ;
+	font-weight : bold ;
+	font-size: 24px; font-size: 2.4rem;
+	line-height : 28px ; line-height : 2.8rem;
+}
+
+.header1 {
+	background-color: rgb(46, 204, 113);
+	text-align: center;
+	font-weight: bold;
+}
+
+.header2 {
+	background-color: rgb(241, 196, 15);
+	text-align: center;
+}
+
+

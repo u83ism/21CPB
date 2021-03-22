@@ -1,0 +1,7 @@
+DirectoryIndex index.html index.htm index.shtml index.php index.cgi .ht
+AuthUserFile /home/u83ism/www/.htpasswd
+AuthType Basic
+AuthName "Web access"
+Satisfy all
+Order deny,allow
+Deny from 110.210.18.9

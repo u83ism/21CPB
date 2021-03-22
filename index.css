@@ -1,0 +1,143 @@
+/* hoverで明るくする処理を透過率の変更で擬似的に行っているため、
+bodyに背景つけるとhover時に背景画像が透けて見えてしまう。
+そのためstyle.cssの背景指定を後から読み込まれる当ファイルで上書きして、
+.indexCenterに指定しなおす。*/
+body {
+	background : none;
+}
+.indexCenter {
+	background : url(gazou/kabe.jpg) fixed ;
+	}
+
+/* ここからトップページコンテナ */
+.indexContainer {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: flex;
+
+	-webkit-box-direction: normal;
+	-moz-box-direction: normal;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+	-ms-flex-align:stretch;
+	-webkit-align-items:stretch;
+	align-items : stretch ;
+
+	width: 100%;
+	height: 100%;
+}
+
+.indexLeft,.indexRight {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: flex;
+
+	-webkit-box-direction: normal;
+	-moz-box-direction: normal;
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+
+	height: 100%;
+	width : 20%;
+	padding: 0;
+}
+
+.indexCenter {
+	width:60%;
+	text-align: center;
+	padding-top: 50px
+}
+
+.indexLeft a,.indexRight a{
+	text-decoration : none ;
+	height: 20%;
+	width : 100%;
+	padding-top: 20px;
+	color : #FFFFFF ;
+	text-align: center;
+	font-weight : bold;
+	font-size : large;
+}
+
+.indexLeft a:nth-of-type(1){
+	background-color: rgb(26, 188, 156);
+}
+
+.indexLeft a:nth-of-type(2){
+	background-color: rgb(46, 204, 113);
+}
+
+.indexLeft a:nth-of-type(3){
+	background-color: rgb(52, 152, 219);
+}
+
+.indexLeft a:nth-of-type(4){
+	background-color: rgb(155, 89, 182);
+}
+
+.indexLeft a:nth-of-type(5){
+	background-color: rgb(52, 73, 94);
+}
+
+.indexRight a:nth-of-type(1){
+	background-color: rgb(241, 196, 15);
+}
+
+.indexRight a:nth-of-type(2){
+	background-color: rgb(230, 126, 34);
+}
+
+.indexRight a:nth-of-type(3){
+	background-color: rgb(231, 76, 60);
+}
+
+.indexRight a:nth-of-type(4){
+	background-color: rgb(149, 165, 166);
+}
+
+.indexRight a:nth-of-type(5){
+	background-color:rgb(127, 140, 141);
+}
+
+.indexLeft a:hover,
+.indexRight a:hover{
+	opacity:0.8;
+}
+/* ここまでトップページコンテナ */
+
+
+/* ここから更新履歴テーブル */
+.logTable {
+	width: 80%;
+	border-color: #000000;
+}
+
+.logTable td {
+	padding: 5px;
+	font-size: 14px; font-size: 1.4rem;
+}
+
+.logTable td:first-child {
+	width : 20%;
+}
+
+.logTable td:nth-child(2) {
+	width : 80%;
+}
+
+/* ここまで更新履歴テーブル */
