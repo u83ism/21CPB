@@ -1,433 +1,442 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>2人がかりで同時に決める技（投げ技）</title>
-<link rel="icon" href="http://prowrestling.jpn.org/favicon.ico" type="image/vnd.microsoft.icon">
-<link rel="shortcut icon" href="http://prowrestling.jpn.org/favicon.ico" type="image/vnd.microsoft.icon">
-	<link rel="stylesheet" href="../style.css" type="text/css">
-	<!--[if lt IE 9]>
+  <meta charset="UTF-8">
+  <title>2人がかりで同時に決める技（投げ技）</title>
+  <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="../style.css" type="text/css">
+  <!--[if lt IE 9]>
 	<script src="../html5shiv.js"></script>
 	<![endif]-->
-	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<!--[if (gte IE 6)&(lte IE 8)]>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <!--[if (gte IE 6)&(lte IE 8)]>
 	<script type="text/javascript" src="../selectivizr.js"></script>
 	<![endif]-->
-	<script type="text/javascript" src="../fontsize.js"></script>
+  <script type="text/javascript" src="../fontsize.js"></script>
 
 
 </head>
+
 <body>
-<div align="center"><br>
- <br>
-	<table width="75%" border="1">
-  <tr>
-   <td width="33%" nowrap bgcolor="#FFCC99"><div align="center">1人目の動き</div></td>
-   <td width="33%" nowrap bgcolor="#FFCC99"><div align="center">2人目の動き</div></td>
-   <td width="34%" nowrap bgcolor="#FFCC99"><div align="center">技名</div></td>
-  </tr>
-  <tr>
-   <td nowrap>ダイビング・ショルダータックル</td>
-   <td>＋ダイビング・ショルダータックル</td>
-   <td>＝蝶天魚雷（蝶野正洋＆天山広吉）</td>
-  </tr>
-  <tr>
-   <td nowrap>ランニング・ニーアタック</td>
-   <td>＋ナックルバート</td>
-   <td>＝CTC（蝶野正洋＆天山広吉）</td>
-  </tr>
-  <tr>
-   <td nowrap>ベアハッグ（固定）</td>
-   <td>＋飛びつきDDT</td>
-   <td>＝天中殺（天山広吉＆中邑真輔）</td>
-  </tr>
-  <tr>
-   <td nowrap>肩車（固定）</td>
-   <td>＋スワンダイブ式ラリアット</td>
-   <td>＝タッチ・ザ・スカイ（KENTA＆柴田勝頼）　</td>
-  </tr>
-  <tr>
-   <td nowrap>肩車（固定）</td>
-   <td>＋ダイビングニールキック</td>
-   <td>＝ダブルインパクト式ローリングサンダー<br>
-    （森嶋猛＆モハメド・ヨネ）</td>
-  </tr>
-  <tr>
-   <td nowrap>リバースDDT（固定）</td>
-   <td>＋足を持つ</td>
-   <td>ネックブリーカー状に捻る<br>
-    ＝ゴールデンゲートスピン<br>
-    （ドノヴァン・モーガン＆マイク・モデスト）</td>
-  </tr>
-  <tr>
-   <td nowrap>スパインバスター</td>
-   <td>＋スパインバスター</td>
-   <td>＝デイ・アフター・トゥモロー<br>
-    （ドノヴァン・モーガン＆マイク・モデスト）</td>
-  </tr>
-  <tr>
-   <td nowrap>肩車（固定）</td>
-   <td>＋ダイビング・シャイニング・ウィザード</td>
-   <td>＝シャイニング・インパクト<br>
-    （武藤敬司＆X）</td>
-  </tr>
+  <div align="center"><br>
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td width="33%" nowrap bgcolor="#FFCC99">
+          <div align="center">1人目の動き</div>
+        </td>
+        <td width="33%" nowrap bgcolor="#FFCC99">
+          <div align="center">2人目の動き</div>
+        </td>
+        <td width="34%" nowrap bgcolor="#FFCC99">
+          <div align="center">技名</div>
+        </td>
+      </tr>
+      <tr>
+        <td nowrap>ダイビング・ショルダータックル</td>
+        <td>＋ダイビング・ショルダータックル</td>
+        <td>＝蝶天魚雷（蝶野正洋＆天山広吉）</td>
+      </tr>
+      <tr>
+        <td nowrap>ランニング・ニーアタック</td>
+        <td>＋ナックルバート</td>
+        <td>＝CTC（蝶野正洋＆天山広吉）</td>
+      </tr>
+      <tr>
+        <td nowrap>ベアハッグ（固定）</td>
+        <td>＋飛びつきDDT</td>
+        <td>＝天中殺（天山広吉＆中邑真輔）</td>
+      </tr>
+      <tr>
+        <td nowrap>肩車（固定）</td>
+        <td>＋スワンダイブ式ラリアット</td>
+        <td>＝タッチ・ザ・スカイ（KENTA＆柴田勝頼）　</td>
+      </tr>
+      <tr>
+        <td nowrap>肩車（固定）</td>
+        <td>＋ダイビングニールキック</td>
+        <td>＝ダブルインパクト式ローリングサンダー<br>
+          （森嶋猛＆モハメド・ヨネ）</td>
+      </tr>
+      <tr>
+        <td nowrap>リバースDDT（固定）</td>
+        <td>＋足を持つ</td>
+        <td>ネックブリーカー状に捻る<br>
+          ＝ゴールデンゲートスピン<br>
+          （ドノヴァン・モーガン＆マイク・モデスト）</td>
+      </tr>
+      <tr>
+        <td nowrap>スパインバスター</td>
+        <td>＋スパインバスター</td>
+        <td>＝デイ・アフター・トゥモロー<br>
+          （ドノヴァン・モーガン＆マイク・モデスト）</td>
+      </tr>
+      <tr>
+        <td nowrap>肩車（固定）</td>
+        <td>＋ダイビング・シャイニング・ウィザード</td>
+        <td>＝シャイニング・インパクト<br>
+          （武藤敬司＆X）</td>
+      </tr>
 
-  <tr>
-   <td nowrap>トルネードボム（固定）</td>
-   <td>＋R-15</td>
-   <td>＝鬼嫁殺しII （佐々木健介＆中嶋勝彦）</td>
-  </tr>
-  <tr>
-   <td nowrap>トルネードボム</td>
-   <td>＋トルネードボム</td>
-   <td>＝東京ララバイ（東京愚連隊）</td>
-  </tr>
-  <tr>
-   <td nowrap>キャメルクラッチ（固定）</td>
-   <td>＋ギロチンドロップ</td>
-   <td>＝雷神殺しI （NOSAWA論外＆カズ・ハヤシ）</td>
-  </tr>
-  <tr>
-   <td nowrap>＋ギロチンドロップ</td>
-   <td>キャメルクラッチ（固定）</td>
-   <td>＝雷神殺しII （NOSAWA論外＆カズ・ハヤシ）</td>
-  </tr>
-  <tr>
-   <td nowrap>サイドバスター（固定）</td>
-   <td>＋ダイビング・ギロチンドロップ</td>
-   <td>＝ペニスカッター（近藤修司＆&quot;brother&quot;YASSHI）</td>
-  </tr>
-  <tr>
-   <td nowrap>パワーボム（固定）</td>
-   <td>＋ダイビング・ローリングネックブリーカー</td>
-   <td>＝ビッグボーイ（近藤修司＆&quot;brother&quot;YASSHI）</td>
-  </tr>
-  <tr>
-   <td nowrap>ドロップキック</td>
-   <td>＋ドロップキック</td>
-   <td>＝ファック（近藤修司＆&quot;brother&quot;YASSHI） </td>
-  </tr>
+      <tr>
+        <td nowrap>トルネードボム（固定）</td>
+        <td>＋R-15</td>
+        <td>＝鬼嫁殺しII （佐々木健介＆中嶋勝彦）</td>
+      </tr>
+      <tr>
+        <td nowrap>トルネードボム</td>
+        <td>＋トルネードボム</td>
+        <td>＝東京ララバイ（東京愚連隊）</td>
+      </tr>
+      <tr>
+        <td nowrap>キャメルクラッチ（固定）</td>
+        <td>＋ギロチンドロップ</td>
+        <td>＝雷神殺しI （NOSAWA論外＆カズ・ハヤシ）</td>
+      </tr>
+      <tr>
+        <td nowrap>＋ギロチンドロップ</td>
+        <td>キャメルクラッチ（固定）</td>
+        <td>＝雷神殺しII （NOSAWA論外＆カズ・ハヤシ）</td>
+      </tr>
+      <tr>
+        <td nowrap>サイドバスター（固定）</td>
+        <td>＋ダイビング・ギロチンドロップ</td>
+        <td>＝ペニスカッター（近藤修司＆&quot;brother&quot;YASSHI）</td>
+      </tr>
+      <tr>
+        <td nowrap>パワーボム（固定）</td>
+        <td>＋ダイビング・ローリングネックブリーカー</td>
+        <td>＝ビッグボーイ（近藤修司＆&quot;brother&quot;YASSHI）</td>
+      </tr>
+      <tr>
+        <td nowrap>ドロップキック</td>
+        <td>＋ドロップキック</td>
+        <td>＝ファック（近藤修司＆&quot;brother&quot;YASSHI） </td>
+      </tr>
 
-  <tr>
-   <td nowrap>肩車（固定）</td>
-   <td>＋ダイビング・飛びつきダイヤモンドカッター</td>
-   <td>＝ヘブン・インパクト（大谷晋二郎＆田中将斗）</td>
-  </tr>
-  <tr>
-   <td nowrap>味方を正座式肩車</td>
-   <td>＋スイングDDT</td>
-   <td>＝合体ロボDDT（日高郁人＆藤田ミノル）</td>
-  </tr>
+      <tr>
+        <td nowrap>肩車（固定）</td>
+        <td>＋ダイビング・飛びつきダイヤモンドカッター</td>
+        <td>＝ヘブン・インパクト（大谷晋二郎＆田中将斗）</td>
+      </tr>
+      <tr>
+        <td nowrap>味方を正座式肩車</td>
+        <td>＋スイングDDT</td>
+        <td>＝合体ロボDDT（日高郁人＆藤田ミノル）</td>
+      </tr>
 
-  <tr>
-   <td nowrap>バックドロップ（固定）</td>
-   <td>＋スイングリバースDDT</td>
-   <td>＝合体ロボDDT-Z（日高郁人＆藤田ミノル）</td>
-  </tr>
-  <tr>
-   <td nowrap>サーフボードストレッチ（固定）</td>
-   <td>＋低空ドロップキック</td>
-   <td>＝COOL SHOCK（日高郁人＆藤田ミノル）</td>
-  </tr>
+      <tr>
+        <td nowrap>バックドロップ（固定）</td>
+        <td>＋スイングリバースDDT</td>
+        <td>＝合体ロボDDT-Z（日高郁人＆藤田ミノル）</td>
+      </tr>
+      <tr>
+        <td nowrap>サーフボードストレッチ（固定）</td>
+        <td>＋低空ドロップキック</td>
+        <td>＝COOL SHOCK（日高郁人＆藤田ミノル）</td>
+      </tr>
 
-  <tr>
-   <td nowrap>低空ドロップキック</td>
-   <td>＋低空ドロップキック</td>
-   <td>＝ジャンククラッシュ（日高郁人＆藤田ミノル）</td>
-  </tr>
-  <tr>
-   <td nowrap>ツームストーンパイルドライバー</td>
-   <td>＋足を押す</td>
-   <td>＝Pd9（日高郁人＆藤田ミノル）</td>
-  </tr>
+      <tr>
+        <td nowrap>低空ドロップキック</td>
+        <td>＋低空ドロップキック</td>
+        <td>＝ジャンククラッシュ（日高郁人＆藤田ミノル）</td>
+      </tr>
+      <tr>
+        <td nowrap>ツームストーンパイルドライバー</td>
+        <td>＋足を押す</td>
+        <td>＝Pd9（日高郁人＆藤田ミノル）</td>
+      </tr>
 
-  <tr>
-   <td nowrap>スイング式ネックブリーカー（固定）</td>
-   <td>＋ダイビング・クロスボディ</td>
-   <td>＝ディスコI （日高郁人＆藤田ミノル）</td>
-  </tr>
-  <tr>
-   <td nowrap>スイング式ネックブリーカー（固定）</td>
-   <td>＋スワンダイブ式ダイビング・クロスボディ</td>
-   <td>＝ディスコII （日高郁人＆藤田ミノル）</td>
-  </tr>
-  <tr>
-   <td nowrap>ニールキック</td>
-   <td>＋延髄切り</td>
-   <td>＝？（日高郁人＆藤田ミノル）</td>
-  </tr>
+      <tr>
+        <td nowrap>スイング式ネックブリーカー（固定）</td>
+        <td>＋ダイビング・クロスボディ</td>
+        <td>＝ディスコI （日高郁人＆藤田ミノル）</td>
+      </tr>
+      <tr>
+        <td nowrap>スイング式ネックブリーカー（固定）</td>
+        <td>＋スワンダイブ式ダイビング・クロスボディ</td>
+        <td>＝ディスコII （日高郁人＆藤田ミノル）</td>
+      </tr>
+      <tr>
+        <td nowrap>ニールキック</td>
+        <td>＋延髄切り</td>
+        <td>＝？（日高郁人＆藤田ミノル）</td>
+      </tr>
 
-  <tr>
-   <td nowrap>BONEYARD</td>
-   <td>＋ショーンキャプチャ−</td>
-   <td>＝BONEキャプチャ−（日高郁人＆藤田ミノル）</td>
-  </tr>
-  <tr>
-   <td nowrap>肩車（固定）</td>
-   <td>＋スワンダイブ式ミサイルキック</td>
-   <td>＝崔虎（崔領二＆佐藤耕平）</td>
-  </tr>
-  <tr>
-   <td nowrap>倒れている最中に近づいた敵をキック</td>
-   <td>→スクールボーイ</td>
-   <td>＝スウィートボーイズ（マイケル岩佐＆ダニエル三島）</td>
-  </tr>
+      <tr>
+        <td nowrap>BONEYARD</td>
+        <td>＋ショーンキャプチャ−</td>
+        <td>＝BONEキャプチャ−（日高郁人＆藤田ミノル）</td>
+      </tr>
+      <tr>
+        <td nowrap>肩車（固定）</td>
+        <td>＋スワンダイブ式ミサイルキック</td>
+        <td>＝崔虎（崔領二＆佐藤耕平）</td>
+      </tr>
+      <tr>
+        <td nowrap>倒れている最中に近づいた敵をキック</td>
+        <td>→スクールボーイ</td>
+        <td>＝スウィートボーイズ（マイケル岩佐＆ダニエル三島）</td>
+      </tr>
 
-  <tr>
-   <td nowrap>ダイビングフットスタンプ</td>
-   <td>→三角飛びムーンサルトプレス</td>
-   <td>＝一二三四（大石真翔＆旭志織）</td>
-  </tr>
-  <tr>
-   <td nowrap>ジャンボの勝ち！</td>
-   <td>＋昇龍脚</td>
-   <td>＝ジャンボの脚（横須賀享＆K-ness.）</td>
-  </tr>
+      <tr>
+        <td nowrap>ダイビングフットスタンプ</td>
+        <td>→三角飛びムーンサルトプレス</td>
+        <td>＝一二三四（大石真翔＆旭志織）</td>
+      </tr>
+      <tr>
+        <td nowrap>ジャンボの勝ち！</td>
+        <td>＋昇龍脚</td>
+        <td>＝ジャンボの脚（横須賀享＆K-ness.）</td>
+      </tr>
 
-  <tr>
-   <td nowrap>カナディアン・バックブリーカー（固定）</td>
-   <td>＋ダイビング・ニードロップ</td>
-   <td>＝横須賀ドラニー（横須賀享＆K-ness.）</td>
-  </tr>
-  <tr>
-   <td nowrap>ダークネス・バスター</td>
-   <td>＋ダークネス・バスター</td>
-   <td>＝クネスカバスター（横須賀享＆K-ness.）</td>
-  </tr>
-  <tr>
-   <td nowrap>青き光</td>
-   <td>＋青き光</td>
-   <td>＝∞の光（横須賀享＆K-ness.）</td>
-  </tr>
-  <tr>
-   <td nowrap>串刺しボディアタック</td>
-   <td>＋串刺しボディアタック</td>
-   <td>＝俺ごと潰せ（大黒坊弁慶＆アブドーラ小林）</td>
-  </tr>
-  <tr>
-   <td nowrap>カナディアン・バックブリーカー（固定）</td>
-   <td>＋ダイビング・飛びつき喉輪落とし</td>
-   <td>＝デンジャラス・ジャッキー（大黒坊弁慶＆アブドーラ小林）</td>
-  </tr>
-  <tr>
-   <td nowrap>味方を肩車</td>
-   <td>＋ダイビングボディプレス</td>
-   <td>＝ハイアングル植松（植松寿絵＆輝優優）</td>
-  </tr>
-  <tr>
-   <td nowrap>マッスルバスター</td>
-   <td>＋マッスルバスター</td>
-   <td>＝ダブルマッスル（佐藤秀＆佐藤恵）</td>
-  </tr>
-  <tr>
-   <td nowrap>パワーボム</td>
-   <td>＋スワンダイブ式ニールキック</td>
-   <td>＝TTインパクト2004（メンズ・テイオー＆TAKAいちのく）</td>
-  </tr>
-  <tr>
-   <td nowrap>ミッキーブーメラン</td>
-   <td>＋後頭部へのドロップキック</td>
-   <td>＝ミカトバラッシュ1号（MIKAMI＆タノムサク鳥羽）</td>
-  </tr>
-  <tr>
-   <td nowrap>ローリングエルボー</td>
-   <td>＋ラリアット</td>
-   <td>＝ファイト一発（メンズ・テイオー＆関本大介）</td>
-  </tr>
-  <tr>
-   <td nowrap>16文キック</td>
-   <td>＋ラリアット</td>
-   <td>＝16文ラリアット（ジャイアント馬場＆ラッシャー木村）</td>
-  </tr>
-  <tr>
-   <td nowrap>ラリアット</td>
-   <td>＋ラリアット</td>
-   <td>＝龍原砲（天龍源一郎＆阿修羅原）</td>
-  </tr>
-  <tr>
-   <td nowrap>肩車（固定）</td>
-   <td>＋ダイビング・ラリアット</td>
-   <td>＝ダブル・インパクト（アニマル・ウォーリアー＆ホーク・ウォーリアー）</td>
-  </tr>
-  <tr>
-   <td nowrap>パイルドライバー（固定）</td>
-   <td>＋飛んで固定した相手の足裏を押す</td>
-   <td>＝ハイジャック・パイルドライバー（長州力＆アニマル浜口）</td>
-  </tr>
-  <tr>
-   <td nowrap>フライング・クロスチョップ</td>
-   <td>＋フライング・クロスチョップ</td>
-   <td>＝ダブルフライング・クロスチョップ（ミル・マスカラス＆ドス・カラス）</td>
-  </tr>
-  <tr>
-   <td nowrap>エルボーアタック</td>
-   <td>＋エルボーアタック</td>
-   <td>＝ダブルエルボー（ドリー・ファンク＆テリー・ファンク）</td>
-  </tr>
-  <tr>
-   <td nowrap>アバランシュホールド</td>
-   <td>＋アバランシュホールド</td>
-   <td>＝合体アバランシュホールド（テリー・ゴディ＆スティーブ・ウィリアムス）</td>
-  </tr>
-  <tr>
-   <td nowrap>肩車（固定）</td>
-   <td>＋飛びつきブルドッキング・ヘッドロック</td>
-   <td>＝スカイハイ・ブルドッグ（リック・スタイナー＆スコット・スタイナー）</td>
-  </tr>
-  <tr>
-   <td nowrap>バックドロップ（固定）</td>
-   <td>＋ダイビングネックブリーカードロップ</td>
-   <td>＝バックドロップ＆ダイビングネックブリーカードロップ（アドリアン・アドニス＆ボブ・オートンJr）</td>
-  </tr>
-  <tr>
-   <td nowrap>水面蹴り</td>
-   <td>＋STO</td>
-   <td>＝刈龍怒（小川直也＆橋本真也）</td>
-  </tr>
-  <tr>
-   <td nowrap>DDT（固定）</td>
-   <td>＋STO</td>
-   <td>＝DDO（小川直也＆橋本真也）</td>
-  </tr>
-  <tr>
-   <td nowrap>投げっぱなしジャーマン（固定）</td>
-   <td>＋STO</td>
-   <td>＝オレごと刈れ（小川直也＆橋本真也）</td>
-  </tr>
-  <tr>
-   <td nowrap>垂直落下式DDT（固定）</td>
-   <td>＋STO</td>
-   <td>＝FUJIYAMA（小川直也＆橋本真也）</td>
-  </tr>
+      <tr>
+        <td nowrap>カナディアン・バックブリーカー（固定）</td>
+        <td>＋ダイビング・ニードロップ</td>
+        <td>＝横須賀ドラニー（横須賀享＆K-ness.）</td>
+      </tr>
+      <tr>
+        <td nowrap>ダークネス・バスター</td>
+        <td>＋ダークネス・バスター</td>
+        <td>＝クネスカバスター（横須賀享＆K-ness.）</td>
+      </tr>
+      <tr>
+        <td nowrap>青き光</td>
+        <td>＋青き光</td>
+        <td>＝∞の光（横須賀享＆K-ness.）</td>
+      </tr>
+      <tr>
+        <td nowrap>串刺しボディアタック</td>
+        <td>＋串刺しボディアタック</td>
+        <td>＝俺ごと潰せ（大黒坊弁慶＆アブドーラ小林）</td>
+      </tr>
+      <tr>
+        <td nowrap>カナディアン・バックブリーカー（固定）</td>
+        <td>＋ダイビング・飛びつき喉輪落とし</td>
+        <td>＝デンジャラス・ジャッキー（大黒坊弁慶＆アブドーラ小林）</td>
+      </tr>
+      <tr>
+        <td nowrap>味方を肩車</td>
+        <td>＋ダイビングボディプレス</td>
+        <td>＝ハイアングル植松（植松寿絵＆輝優優）</td>
+      </tr>
+      <tr>
+        <td nowrap>マッスルバスター</td>
+        <td>＋マッスルバスター</td>
+        <td>＝ダブルマッスル（佐藤秀＆佐藤恵）</td>
+      </tr>
+      <tr>
+        <td nowrap>パワーボム</td>
+        <td>＋スワンダイブ式ニールキック</td>
+        <td>＝TTインパクト2004（メンズ・テイオー＆TAKAいちのく）</td>
+      </tr>
+      <tr>
+        <td nowrap>ミッキーブーメラン</td>
+        <td>＋後頭部へのドロップキック</td>
+        <td>＝ミカトバラッシュ1号（MIKAMI＆タノムサク鳥羽）</td>
+      </tr>
+      <tr>
+        <td nowrap>ローリングエルボー</td>
+        <td>＋ラリアット</td>
+        <td>＝ファイト一発（メンズ・テイオー＆関本大介）</td>
+      </tr>
+      <tr>
+        <td nowrap>16文キック</td>
+        <td>＋ラリアット</td>
+        <td>＝16文ラリアット（ジャイアント馬場＆ラッシャー木村）</td>
+      </tr>
+      <tr>
+        <td nowrap>ラリアット</td>
+        <td>＋ラリアット</td>
+        <td>＝龍原砲（天龍源一郎＆阿修羅原）</td>
+      </tr>
+      <tr>
+        <td nowrap>肩車（固定）</td>
+        <td>＋ダイビング・ラリアット</td>
+        <td>＝ダブル・インパクト（アニマル・ウォーリアー＆ホーク・ウォーリアー）</td>
+      </tr>
+      <tr>
+        <td nowrap>パイルドライバー（固定）</td>
+        <td>＋飛んで固定した相手の足裏を押す</td>
+        <td>＝ハイジャック・パイルドライバー（長州力＆アニマル浜口）</td>
+      </tr>
+      <tr>
+        <td nowrap>フライング・クロスチョップ</td>
+        <td>＋フライング・クロスチョップ</td>
+        <td>＝ダブルフライング・クロスチョップ（ミル・マスカラス＆ドス・カラス）</td>
+      </tr>
+      <tr>
+        <td nowrap>エルボーアタック</td>
+        <td>＋エルボーアタック</td>
+        <td>＝ダブルエルボー（ドリー・ファンク＆テリー・ファンク）</td>
+      </tr>
+      <tr>
+        <td nowrap>アバランシュホールド</td>
+        <td>＋アバランシュホールド</td>
+        <td>＝合体アバランシュホールド（テリー・ゴディ＆スティーブ・ウィリアムス）</td>
+      </tr>
+      <tr>
+        <td nowrap>肩車（固定）</td>
+        <td>＋飛びつきブルドッキング・ヘッドロック</td>
+        <td>＝スカイハイ・ブルドッグ（リック・スタイナー＆スコット・スタイナー）</td>
+      </tr>
+      <tr>
+        <td nowrap>バックドロップ（固定）</td>
+        <td>＋ダイビングネックブリーカードロップ</td>
+        <td>＝バックドロップ＆ダイビングネックブリーカードロップ（アドリアン・アドニス＆ボブ・オートンJr）</td>
+      </tr>
+      <tr>
+        <td nowrap>水面蹴り</td>
+        <td>＋STO</td>
+        <td>＝刈龍怒（小川直也＆橋本真也）</td>
+      </tr>
+      <tr>
+        <td nowrap>DDT（固定）</td>
+        <td>＋STO</td>
+        <td>＝DDO（小川直也＆橋本真也）</td>
+      </tr>
+      <tr>
+        <td nowrap>投げっぱなしジャーマン（固定）</td>
+        <td>＋STO</td>
+        <td>＝オレごと刈れ（小川直也＆橋本真也）</td>
+      </tr>
+      <tr>
+        <td nowrap>垂直落下式DDT（固定）</td>
+        <td>＋STO</td>
+        <td>＝FUJIYAMA（小川直也＆橋本真也）</td>
+      </tr>
 
-  <tr>
-   <td nowrap>サンダーファイヤーパワーボム</td>
-   <td>＋サンダーファイヤーパワーボム</td>
-   <td>＝ビッグハイヤー・デモリッション（高山善廣＆大森隆男）</td>
-  </tr>
-  <tr>
-   <td nowrap>味方を肩車</td>
-   <td>＋雪崩式ブレーンバスター</td>
-   <td>＝摩周（本間朋晃＆山川竜司）</td>
-  </tr>
+      <tr>
+        <td nowrap>サンダーファイヤーパワーボム</td>
+        <td>＋サンダーファイヤーパワーボム</td>
+        <td>＝ビッグハイヤー・デモリッション（高山善廣＆大森隆男）</td>
+      </tr>
+      <tr>
+        <td nowrap>味方を肩車</td>
+        <td>＋雪崩式ブレーンバスター</td>
+        <td>＝摩周（本間朋晃＆山川竜司）</td>
+      </tr>
 
-  <tr>
-   <td nowrap>肩車（固定）</td>
-   <td>＋スワンダイブ式シャイニング・ウィザード</td>
-   <td>＝スワンダイブ式シャイニングインパクト<br>
-    （鈴木鼓太郎＆リッキー・マルビン）</td>
-  </tr>
-  <tr>
-   <td nowrap>ブルーディスティニー</td>
-   <td>＋相手の両手を掴む</td>
-   <td>＝パーフェクト・ブルーディスティニー<br>
-   （鈴木鼓太郎＆リッキー・マルビン）</td>
-  </tr>
+      <tr>
+        <td nowrap>肩車（固定）</td>
+        <td>＋スワンダイブ式シャイニング・ウィザード</td>
+        <td>＝スワンダイブ式シャイニングインパクト<br>
+          （鈴木鼓太郎＆リッキー・マルビン）</td>
+      </tr>
+      <tr>
+        <td nowrap>ブルーディスティニー</td>
+        <td>＋相手の両手を掴む</td>
+        <td>＝パーフェクト・ブルーディスティニー<br>
+          （鈴木鼓太郎＆リッキー・マルビン）</td>
+      </tr>
 
-  <tr>
-   <td nowrap>サンタマリア</td>
-   <td>＋サンタマリア</td>
-   <td>＝合体サンタマリア<br>
-   （鈴木鼓太郎＆リッキー・マルビン）</td>
-  </tr>
-  <tr>
-   <td nowrap>パイルドライバー（固定）</td>
-   <td>＋スワンダイブして固定した相手の足裏を押す</td>
-   <td>＝スパイクJドリラー<br>
-   （ジェイ・ブリスコ＆マーク・ブリスコ）</td>
-  </tr>
+      <tr>
+        <td nowrap>サンタマリア</td>
+        <td>＋サンタマリア</td>
+        <td>＝合体サンタマリア<br>
+          （鈴木鼓太郎＆リッキー・マルビン）</td>
+      </tr>
+      <tr>
+        <td nowrap>パイルドライバー（固定）</td>
+        <td>＋スワンダイブして固定した相手の足裏を押す</td>
+        <td>＝スパイクJドリラー<br>
+          （ジェイ・ブリスコ＆マーク・ブリスコ）</td>
+      </tr>
 
-  <tr>
-   <td nowrap>肩車（固定）</td>
-   <td>＋スワンダイブ式ラリアット</td>
-   <td>＝スワンダイブ式ドゥームズデイ・デバイス<br>
-   （ジェイ・ブリスコ＆マーク・ブリスコ）</td>
-  </tr>
-  <tr>
-   <td nowrap>フラップジャック</td>
-   <td>＋ダイヤモンドカッター</td>
-   <td>＝3D<br>
-    （ババレイ・ダッドリー＆ディーボン・ダッドリー）</td>
-  </tr>
-  <tr>
-   <td nowrap>バックドロップ（固定）</td>
-   <td>＋ネックブリーカー</td>
-   <td>＝（名前無し）<br>
-   （ババレイ・ダッドリー＆ディーボン・ダッドリー）</td>
-  </tr>
-  <tr>
-   <td nowrap>ダウンした相手の股を開く（固定）</td>
-   <td>＋ダイビング・ヘッドバッド</td>
-   <td>＝ディーボン弾<br>
-   （ババレイ・ダッドリー＆ディーボン・ダッドリー）</td>
-  </tr>
-  <tr>
-   <td nowrap>椅子攻撃</td>
-   <td>＋椅子攻撃</td>
-   <td>＝コンチェアト（エッジ＆クリスチャン）</td>
-  </tr>
-  <tr>
-   <td nowrap>夢幻</td>
-   <td>＋ダイビングして相手の体を倒す</td>
-   <td>＝幻壊（斎藤了＆横須賀享）</td>
-  </tr>
-  <tr>
-   <td nowrap>プレミアムブリッジ</td>
-   <td>＋プレミアムブリッジ</td>
-   <td>＝合体プレミアムブリッジ（斎藤了＆横須賀享）</td>
-  </tr>
-  <tr>
-   <td nowrap>肩車（固定）</td>
-   <td>＋ダイビング・ブサイクへの膝蹴り</td>
-   <td>＝ダブルインパクト式ブサイクへの膝蹴り<br>
-   （丸藤正道＆KENTA）</td>
-  </tr>
-  <tr>
-   <td nowrap>相手の頭をロープに引っ掛け、足を肩車</td>
-   <td>＋パートナーを飛び越えてセントーン</td>
-   <td>＝ブロークンアロー<br>
-   （シェルトン・ベンジャミン＆チャーリー・ハース）</td>
-  </tr>
+      <tr>
+        <td nowrap>肩車（固定）</td>
+        <td>＋スワンダイブ式ラリアット</td>
+        <td>＝スワンダイブ式ドゥームズデイ・デバイス<br>
+          （ジェイ・ブリスコ＆マーク・ブリスコ）</td>
+      </tr>
+      <tr>
+        <td nowrap>フラップジャック</td>
+        <td>＋ダイヤモンドカッター</td>
+        <td>＝3D<br>
+          （ババレイ・ダッドリー＆ディーボン・ダッドリー）</td>
+      </tr>
+      <tr>
+        <td nowrap>バックドロップ（固定）</td>
+        <td>＋ネックブリーカー</td>
+        <td>＝（名前無し）<br>
+          （ババレイ・ダッドリー＆ディーボン・ダッドリー）</td>
+      </tr>
+      <tr>
+        <td nowrap>ダウンした相手の股を開く（固定）</td>
+        <td>＋ダイビング・ヘッドバッド</td>
+        <td>＝ディーボン弾<br>
+          （ババレイ・ダッドリー＆ディーボン・ダッドリー）</td>
+      </tr>
+      <tr>
+        <td nowrap>椅子攻撃</td>
+        <td>＋椅子攻撃</td>
+        <td>＝コンチェアト（エッジ＆クリスチャン）</td>
+      </tr>
+      <tr>
+        <td nowrap>夢幻</td>
+        <td>＋ダイビングして相手の体を倒す</td>
+        <td>＝幻壊（斎藤了＆横須賀享）</td>
+      </tr>
+      <tr>
+        <td nowrap>プレミアムブリッジ</td>
+        <td>＋プレミアムブリッジ</td>
+        <td>＝合体プレミアムブリッジ（斎藤了＆横須賀享）</td>
+      </tr>
+      <tr>
+        <td nowrap>肩車（固定）</td>
+        <td>＋ダイビング・ブサイクへの膝蹴り</td>
+        <td>＝ダブルインパクト式ブサイクへの膝蹴り<br>
+          （丸藤正道＆KENTA）</td>
+      </tr>
+      <tr>
+        <td nowrap>相手の頭をロープに引っ掛け、足を肩車</td>
+        <td>＋パートナーを飛び越えてセントーン</td>
+        <td>＝ブロークンアロー<br>
+          （シェルトン・ベンジャミン＆チャーリー・ハース）</td>
+      </tr>
 
-  <tr>
-   <td nowrap>エメラルドフロウジョン</td>
-   <td>＋垂直落下式ブレーンバスター</td>
-   <td>＝合体エメラルドフロウジョン（三沢光晴＆小川良成）</td>
-  </tr>
-  <tr>
-   <td nowrap>ラリアット</td>
-   <td>＋低空ラリアット</td>
-   <td>＝ハイ・ロー（ランス・ケイド＆トレバー・マードック）</td>
-  </tr>
+      <tr>
+        <td nowrap>エメラルドフロウジョン</td>
+        <td>＋垂直落下式ブレーンバスター</td>
+        <td>＝合体エメラルドフロウジョン（三沢光晴＆小川良成）</td>
+      </tr>
+      <tr>
+        <td nowrap>ラリアット</td>
+        <td>＋低空ラリアット</td>
+        <td>＝ハイ・ロー（ランス・ケイド＆トレバー・マードック）</td>
+      </tr>
 
-  <tr>
-   <td nowrap>サモアンドロップ（固定）</td>
-   <td>＋ローリングネックブリーカー</td>
-   <td>＝G9（JTG＆ジャド）</td>
-  </tr>
-  <tr>
-   <td nowrap>アックスボンバー</td>
-   <td>＋マッケンロー</td>
-   <td>＝ワシントン条約（大森隆男＆中西学）</td>
-  </tr>
+      <tr>
+        <td nowrap>サモアンドロップ（固定）</td>
+        <td>＋ローリングネックブリーカー</td>
+        <td>＝G9（JTG＆ジャド）</td>
+      </tr>
+      <tr>
+        <td nowrap>アックスボンバー</td>
+        <td>＋マッケンロー</td>
+        <td>＝ワシントン条約（大森隆男＆中西学）</td>
+      </tr>
 
-  <tr>
-   <td nowrap>後ろ回し蹴り</td>
-   <td>＋水面蹴り</td>
-   <td>＝大殺界（中嶋勝彦＆土方隆司）</td>
-  </tr>
-  <tr>
-   <td nowrap>ダイビングボディプレス</td>
-   <td>＋ダイビングボディプレス</td>
-   <td>＝リキボノスプラッシュ64（力皇猛＆曙）</td>
-  </tr>
- </table>
-	<br>
-	<br>
-  <br>
-  <a href="../move.htm">技研究トップに戻る</a> <br>
-  <br>
-  <br>
-</div>
+      <tr>
+        <td nowrap>後ろ回し蹴り</td>
+        <td>＋水面蹴り</td>
+        <td>＝大殺界（中嶋勝彦＆土方隆司）</td>
+      </tr>
+      <tr>
+        <td nowrap>ダイビングボディプレス</td>
+        <td>＋ダイビングボディプレス</td>
+        <td>＝リキボノスプラッシュ64（力皇猛＆曙）</td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <a href="../move.htm">技研究トップに戻る</a> <br>
+    <br>
+    <br>
+  </div>
 </body>
+
 </html>

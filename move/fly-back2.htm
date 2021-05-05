@@ -1,563 +1,702 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>後方回転系の飛び技（反対向き）</title>
-<link rel="icon" href="http://prowrestling.jpn.org/favicon.ico" type="image/vnd.microsoft.icon">
-<link rel="shortcut icon" href="http://prowrestling.jpn.org/favicon.ico" type="image/vnd.microsoft.icon">
-	<link rel="stylesheet" href="../style.css" type="text/css">
-	<!--[if lt IE 9]>
+  <meta charset="UTF-8">
+  <title>後方回転系の飛び技（反対向き）</title>
+  <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="../style.css" type="text/css">
+  <!--[if lt IE 9]>
 	<script src="../html5shiv.js"></script>
 	<![endif]-->
-	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<!--[if (gte IE 6)&(lte IE 8)]>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <!--[if (gte IE 6)&(lte IE 8)]>
 	<script type="text/javascript" src="../selectivizr.js"></script>
 	<![endif]-->
-	<script type="text/javascript" src="../fontsize.js"></script>
+  <script type="text/javascript" src="../fontsize.js"></script>
 
 
 </head>
+
 <body>
-<div align="center"><br>
- <br>
-  <table width="95%" border="1">
-   <tr>
-    <td width="12%" nowrap>回転・行動／条件</td>
-    <td width="22%" nowrap class="header1"><div align="center">コーナーから飛ぶ</div></td>
-    <td width="22%" nowrap class="header1"><div align="center">ロープを使ってリング内へ飛ぶ</div></td>
-    <td width="22%" nowrap class="header1"><div align="center">ロープを使ってリング外へ飛ぶ</font></div></td>
-    <td width="22%" nowrap class="header1"><div align="center">直接ダイブ</div></td>
-   </tr>
-   <tr>
-    <td width="12%" nowrap bgcolor="#99CCFF">後方270度回転<br>
-    ボディプレス</font></td>
-    <td width="22%"><a href="#270body1-1">★ムーンサルトプレス <br>
-     ＝月面水爆 <br>
-     ≒ムーンサルトアタック</a><br>
-     <a href="#270body1-2">●開脚式ムーンサルトプレス<br>
-  ＝スプリットレッグドムーンサルト <br>
-  ＝ハリウッドスタープレス</a><br>
-  <a href="#270body1-3">●スーパーダンス</a><br>
-  <a href="#270body1-4">●ボーイングボーイングスプラッシュ</a> <br>
-  <a href="#270body1-5">●エルニーニョ  </a><br>
-  <a href="#270body1-6">●トリフェクタ</a><br>
-  <a href="#270body1-7">●BME（Best Moonsault Ever）</a><a href="#270body1-7"></font></a></td>
-    <td><a href="#270body2-1">★ラ・ブファドーラ<br>
-     ＝ライオンサルト<br>
-     ＝セカンドロープムーンサルトプレス<br>
-     ＝エンポリオ・アルマニッシュ<br>
-     ≒セカンドロープムーンサルトアタック</a></a><br>
-     <a href="#270body2-2">★開脚式ラ・ブファドーラ</a></a><br>
-     <a href="#270body2-3">●三角飛び式ムーンサルトプレス<br>
-＝ローラーコースター</a></td>
-    <td><a href="#270body3-1">★ラ・ケブラーダ</a><br>
-    <a href="#270body3-2">★開脚式ラ・ケブラーダ</a><br>
-      <a href="#270body3-3">●宇宙人ケブラーダ</a><br>
-      <a href="#270body3-4">★三角飛びケブラーダ<br>
-    ≒バミューダ・トライアングル</a><br>
-				<a href="#270body3-5">★三角飛び式開脚ケブラーダ</a></td>
-    <td width="22%"><a href="#270body4-1">●サスケ・スペシャル1号</a></td>
-   </tr>
-
-   <tr>
-    <td width="12%" nowrap bgcolor="#99CCFF">後方270度回転半捻り<br>
-    セントーン</font></td>
-    <td width="22%"><a href="#270t1senton1-1">●バルキリースプラッシュ<br>
-     ＝ルナウィング<br>
-    ＝ムーンサルトウィング </a><a href="#270t1senton1-1"></a></font></a></td>
-    <td width="22%"><a href="#270t1senton2-1">●アルマニッシュ・エクスチェンジ</a></td>
-    <td width="22%">——</font></td>
-    <td width="22%">——</font></td>
-   </tr>
-   <tr>
-    <td width="12%" nowrap bgcolor="#99CCFF">後方270度回転半捻り<br>
-    エルボードロップ</font></td>
-    <td width="22%"><a href="#270t1elbow1-1">●マテリアル</a><a href="#270t1elbow1-1"></font></a></td>
-    <td width="22%">——</font></td>
-    <td width="22%">——</font></td>
-    <td width="22%">——</font></td>
-   </tr>
-   <tr>
-    <td width="12%" nowrap bgcolor="#99CCFF">後方270度回転1回捻り<br>
-    ボディプレス</font></td>
-    <td width="22%"><a href="#270t2body1-1">★スカイツイスタープレス（パターン1）<br>
-     ＝カンクーントルネード<BR>
-     ＝テングトルネード<BR>
-     ＝カミカゼトルネード<BR>
-     ＝スーパーダンスversion2<BR>
-     ＝ヤンタイム<BR>
-     ＝開運トルネード<BR>
-     ＝関空トルネード<BR>
-    ＝ハリケーンプレス</a><a href="#270t2body1-1"></font></a></td>
-    <td colspan="2">●スワンダイブ式スカイツイスタープレス</td>
-    <td width="22%">——</font></td>
-   </tr>
-   <tr>
-    <td width="12%" nowrap bgcolor="#99CCFF">後方270度回転1回半捻り<br>
-    レッグドロップ</font></td>
-    <td width="22%"><a href="#270t3leg1-1">●インフラレッド<br>
-    ＝オープンハートサージェリー（パターン2）<br>
-    ＝スカイツイスタープレス（パターン2）</a></td>
-    <td colspan="2"><a href="#270t3legX-1">★スワンダイブ式インフラレッド</a></td>
-    <td width="22%">——</font></td>
-   </tr>
-   <tr>
-    <td nowrap bgcolor="#99CCFF">後方360度回転<br>
-     エルボーアタック</td>
-    <td>——</font></td>
-    <td><a href="#360elbow2-1">●ラ・ブファドーラ＋180°</a></td>
-    <td>——</font></td>
-    <td>——</font></td>
-   </tr>
-   <tr>
-    <td width="12%" nowrap bgcolor="#99CCFF">後方360度回転<br>
-    ニードロップ</font></td>
-    <td width="22%"><a href="#360knee1-1">●ムーンサルトダブルニードロップ</a></font></td>
-    <td width="22%">——</font></td>
-    <td width="22%">——</font></td>
-    <td width="22%">——</font></td>
-   </tr>
-   <tr>
-    <td width="12%" nowrap bgcolor="#99CCFF">後方360度回転<br>
-    フットスタンプ</font></td>
-    <td width="22%"><a href="#360foot1-1">●ムーンサルトフットスタンプ<br>
-    ＝リープ・オブ・フェイス</a><a href="#360foot1-1"></font></a></td>
-    <td width="22%">——</font></td>
-    <td width="22%">——</font></td>
-    <td width="22%">——</font></td>
-   </tr>
-   <tr>
-    <td nowrap bgcolor="#99CCFF">後方360度回転<br>
-     飛びつきリバースDDT </font></td>
-    <td>——</font></td>
-    <td><a href="#360ddt2-1">★フェノメノンDDT</a></td>
-    <td>——</font></td>
-    <td>——</font></td>
-   </tr>
-   <tr>
-    <td width="12%" nowrap bgcolor="#99CCFF">後方450度回転<br>
-    セントーン</font></td>
-    <td width="22%"><a href="#450senton1-1">●セントーン・レベルサ<br>
-    ＝スーサイドボム</a><a href="#450senton-1"></font></a></td>
-    <td width="22%">——</font></td>
-    <td width="22%">——</font></td>
-    <td width="22%">——</font></td>
-   </tr>
-   <tr>
-    <td width="12%" nowrap bgcolor="#99CCFF">後方630度回転<br>
-    ボディプレス</font></td>
-    <td width="22%"><a href="#630body1-1">★ダブル・ムーンサルト<br>
-      ＝スタンティン101（Stuntin'101）<br>
-    ＝SOS（Splash Of Suicide）</a><a href="#630body1-1"></font></a><br></td>
-    <td width="22%">——</font></td>
-    <td width="22%">——</font></td>
-    <td width="22%">——</font></td>
-   </tr>
- </table>
-  <br>
-  <br>
-  <hr color="#000000" size="1">
-<br>
-  <table width="75%" border="1">
-    <tr>
-      <td bgcolor="#99CCFF"><b><a name="270body1-1" id="270body1-1"></a>ムーンサルトプレス</b><br>
-        ＝月面水爆
-        <br>
-     ≒ムーンサルトアタック</td>
-    </tr>
-    <tr>
-     <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a0%e3%83%bc%e3%83%b3%e3%82%b5%e3%83%ab%e3%83%88%e3%83%97%e3%83%ac%e3%82%b9%ef%bc%88%e6%bd%ae%e5%b4%8e%e8%b1%aa%ef%bc%89.wmv"></iframe><br>
-					<iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a0%e3%83%bc%e3%83%b3%e3%82%b5%e3%83%ab%e3%83%88%e3%83%97%e3%83%ac%e3%82%b9%ef%bc%88%e9%87%91%e4%b8%b8%e7%be%a9%e4%bf%a1%ef%bc%89.wmv"></iframe><br>
-					<iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a0%e3%83%bc%e3%83%b3%e3%82%b5%e3%83%ab%e3%83%88%e3%83%97%e3%83%ac%e3%82%b9%ef%bc%88%e9%a3%af%e4%bc%8f%e5%b9%b8%e5%a4%aa%ef%bc%89.wmv"></iframe>
-					</td>
-    </tr>
-    <tr>
-      <td>コーナートップに立ち、リング外を向いて飛んで、後方270度回転しつつボディプレス。もしくは立っている相手に体当たりをしかけていく。<br>
-        　プロレスにおける飛び技の代名詞的な技。近年では高難度化に伴い、クルーザー級よりむしろヘビー級のフィニッシュムーブとして見る機会の方が多いかもしれない。コーナーの高さがある上に270度回転でいいので、バク宙より簡単な点がヘビー級に使われる理由の一つだろう。<BR>
-      　やるだけなら簡単とはいえ、相手に怪我させず綺麗なフォームを描くには相当な熟練が必要であり、使い手によってはっきり違いが出る。ヘビー級の場合、大抵上位フィニッシュムーブとして使われるが、その中でも2種類に分かれ、綺麗で安定したフォームの物と、超巨体で押し潰すタイプの物が多い。意外なことにWWEではほとんどフィニッシュムーブにならない。<br>
-      　有名な使い手としては武藤敬司や小橋建太、変わり種としてはカート・アングル等がいる。<br>
-      <br></td>
-    </tr>
-    <tr>
-      <td bgcolor="#99CCFF"><b><a name="270body1-2" id="270body1-2"></a>開脚式ムーンサルトプレス</b><br>
-     ＝スプリットレッグドムーンサルト（ロブ・ヴァン・ダム）＝ハリウッドスタープレス（ロブ・ヴァン・ダム）</td>
-    </tr>
-    <tr>
-      <td>コーナートップに立ち、リング外を向いてその場飛びで開脚し、ロープリバウンドを利用して後方270度回転しつつボディプレス。<br>
-        　RVDが昔から使ってる技で一時期はフィニッシュムーブだったことも。恐るべき柔軟性をもつ彼らしい技。ただあまり名前が認知されていないので、分かりやすい「開脚式ムーンサルトプレス」をトップとしました。<br>
-      <br></td>
-    </tr>
-    <tr>
-      <td bgcolor="#99CCFF"><b><a name="270body1-3" id="270body1-3"></a>スーパーダンス</b></td>
-    </tr>
-    <tr>
-      <td>エプロンに立ち、飛び上がりながら反転して、リング外を向いた状態でコーナートップに着地。そこから間を置かずに飛んで、後方270度回転しつつボディプレス。<br>
-        　Hi69のフィニッシュムーブ。師匠のTAKAみちのくが使う「宇宙人ケブラーダ」の影響が伺える。<br>
-     <br></td>
-    </tr>
-    <tr>
-      <td bgcolor="#99CCFF"><b><a name="270body1-4" id="270body1-4"></a>ボーイングボーイングスプラッシュ</b></td>
-    </tr>
-    <tr>
-      <td>コーナー際のセカンドロープに登り、リング内を向いてアピール。そこから飛びつつ空中で反転しリング外を向いた状態になり、そのまま開脚してトップロープのリバウンドを利用。そこから後方270度回転からのボディプレス。<br>
-        　リッキー・マルビンが一時期フィニッシュムーブとして使っていた。<br>
-      <br></td>
-    </tr>
-    <tr>
-     <td bgcolor="#99CCFF"><b><a name="270body1-5" id="270body1-5"></a>エルニーニョ</b></td>
-    </tr>
-    <tr>
-      <td>コーナーを一気に駆け上がって飛び、後方270度回転してボディプレス。<br>
-      　中邑真輔が元祖の技なのだが、初期はニードロップだったとの情報もあり。今風に工夫したつもりかもしれないが、劣化ムーンサルトプレスな印象は拭えない。<br>
-      <br></td>
-    </tr>
-    <tr>
-				<td bgcolor="#99CCFF"><b><a name="270body1-6" id="270body1-6"></a>トリフェクタ</b></td>
- 		</tr>
-    <tr>
-				<td>コーナー際にリング外を向いて立ち、サードロープ→セカンドロープ→トップロープと3回連続でムーンサルトプレスを行う。<br>
-						　スペル・クレイジーの持ちムーブの一つ。流石に労力に見合ってないので、現在はほとんど見ることができない。<br>
-						<br></td>
- 		</tr>
-
-    <tr>
-      <td bgcolor="#99CCFF"><b><a name="270body1-7" id="270body1-7"></a>BME（Best Moonsault Ever）</b></td>
-    </tr>
-    <tr>
-      <td>コーナー際にリング外を向いて立ち、まずセカンドロープに飛び、さらに飛んでトップロープに着地して、ロープバウンドを利用しつつ、後方270度回転してボディプレス。<br>
-        　クリストファー・ダニエルズのフィニッシュムーブ。見事な3テンポのタイミングとフォームで魅せてくれます。<br>
-      <br></td>
-    </tr>
-  </table>
-  <br>
-  <hr color="#000000" size="1">
-  <br>
-  <table width="75%"  border="1">
-   <tr>
-    <td bgcolor="#99CCFF"><b><a name="270body2-1" id="270body2-1"></a>ラ・ブファドーラ</b><br>
-      ＝セカンドロープムーンサルトプレス＝ライオンサルト（クリス・ジェリコ）＝エンポリオ・アルマニッシュ（ミラノ・コレクションAT）<br>
-    ≒セカンドロープムーンサルトアタック</td>
-   </tr>
-   <tr>
-    <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a9%e3%83%bb%e3%83%96%e3%83%95%e3%82%a1%e3%83%89%e3%83%bc%e3%83%a9%ef%bc%88%e3%82%b9%e3%83%9a%e3%83%ab%e3%83%bb%e3%82%af%e3%83%ac%e3%82%a4%e3%82%b8%e3%83%bc%ef%bc%89.wmv"></iframe><br>
-     <iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a9%e3%83%bb%e3%83%96%e3%83%95%e3%82%a1%e3%83%89%e3%83%bc%e3%83%a9%ef%bc%88%e3%83%aa%e3%83%83%e3%82%ad%e3%83%bc%e3%83%bb%e3%83%9e%e3%83%ab%e3%83%93%e3%83%b3%ef%bc%89.wmv"></iframe><br>
-					<iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx?path=%2f%u516c%u958b%2f%u30e9%u30fb%u30d6%u30d5%u30a1%u30c9%u30fc%u30e9from%u30c8%u30c3%u30d7%u30ed%u30fc%u30d7%uff08%u30ea%u30c3%u30ad%u30fc%u30fb%u30de%u30eb%u30d3%u30f3%uff09.wmv"></iframe><br>
-					<iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a9%e3%83%bb%e3%83%96%e3%83%95%e3%82%a1%e3%83%89%e3%83%bc%e3%83%a9from%e3%83%a9%e3%83%80%e3%83%bc%ef%bc%88MIKAMI%ef%bc%89.wmv"></iframe><br>
-					<iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%84%e3%83%bc%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%e3%83%bb%e3%83%a9%e3%83%bb%e3%83%96%e3%83%95%e3%82%a1%e3%83%89%e3%83%bc%e3%83%a9%ef%bc%88%e3%82%ab%e3%83%aa%e3%83%bc%e3%83%88%ef%bc%89.wmv"></iframe>
-					</td></tr>
-   <tr>
-    <td>相手がロープと平行に倒れている状態で、セカンドロープに飛び乗り、ロープの反動で高く飛び上がり、後方270回転してボディプレス。<br>
-     元々ルチャの技であるが、世界的に有名にしたのはクリス・ジェリコ。ヘビー級の体格で30歳を過ぎ、WWEの過酷なスケジュール・強烈な技制限にもめげず繰り出し続けるその姿は正直凄いという他ない。<br>
-     　また色々といわくつきの技でもあり、2001年に当時インディーの大スターであり随一の飛び技使いでもあったハヤブサが失敗、頚椎を損傷し全身不随の重傷を負って引退を余儀なくされている。また前記のクリス・ジェリコも2002年に、飛び乗ったセカンドロープが外れてあやうく事故になりそうになったことがある。（実際はトップロープを持ったまま、場外に足が飛び出しただけで済んだ）<br>
-     <br></td>
-   </tr>
-   <tr>
-    <td bgcolor="#99CCFF"><b><a name="270body2-2" id="270body2-2"></a>開脚式ラ・ブファドーラ</b></td>
-   </tr>
-   <tr>
-    <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e9%96%8b%e8%84%9a%e5%bc%8f%e3%83%a9%e3%83%bb%e3%83%96%e3%83%95%e3%82%a1%e3%83%89%e3%83%bc%e3%83%a9%ef%bc%88%e3%82%b9%e3%83%9a%e3%83%ab%e3%83%bb%e3%82%af%e3%83%ac%e3%82%a4%e3%82%b8%e3%83%bc%ef%bc%89.wmv"></iframe><br>
-				<iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx?path=%2f%u516c%u958b%2f%u958b%u811a%u5f0f%u30e9%u30fb%u30d6%u30d5%u30a1%u30c9%u30fc%u30e9%uff08%u30af%u30ea%u30b9%u30c8%u30d5%u30a1%u30fc%u30fb%u30c0%u30cb%u30a8%u30eb%u30ba%uff09.wmv"></iframe></td>
-   </tr>
-   <tr>
-    <td>相手がロープと平行に倒れている状態で、ロープに開脚した状態で飛び乗り、ロープの反動で高く飛び上がり、後方270回転してボディプレス。<br>
-     　こちらのタイプは難易度が高く、クリストファー・ダニエルズがたまーに使うぐらいに留まっている。<br></td>
-   </tr>
-   <tr>
-    <td bgcolor="#99CCFF"><b><a name="270body2-3" id="270body2-3"></a>三角跳び式ムーンサルトプレス<br>
-    </b>＝ローラーコースター（堀口元気）</td>
-   </tr>
-   <tr>
-    <td>相手がロープと平行に倒れている状態で、コーナー付近で自分の横側にあるセカンドロープに90度横回転しつつ飛び乗り、その後、再度自分の横側（最初の状態から正面）にあるトップロープへ90度横回転しつつ飛び乗って、そこから後方270回転してボディプレス。<br>
-     　色々とバリエーションがある三角跳びムーンサルトシリーズの基本形。<br>
-     <br></td>
-   </tr>
-  </table>
-  <br>
-  <hr color="#000000" size="1">
-  <br>
-  <table width="75%"  border="1">
-   <tr>
-    <td bgcolor="#99CCFF"><b><a name="270body3-1" id="270body3-1"></a>ラ・ケブラーダ</b></td>
-   </tr>
-   <tr>
-    <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a9%e3%83%bb%e3%82%b1%e3%83%96%e3%83%a9%e3%83%bc%e3%83%80%ef%bc%88%e3%82%b9%e3%83%9a%e3%83%ab%e3%83%bb%e3%82%af%e3%83%ac%e3%82%a4%e3%82%b8%e3%83%bc%ef%bc%89.wmv"></iframe><br>
-						<iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a9%e3%83%bb%e3%82%b1%e3%83%96%e3%83%a9%e3%83%bc%e3%83%80%ef%bc%88%e3%82%b5%e3%83%b3%e3%82%b8%e3%82%a7%e3%82%a4%e3%83%bb%e3%83%80%e3%83%83%e3%83%88%ef%bc%89.wmv"></iframe><br>
-						<iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a9%e3%83%bb%e3%82%b1%e3%83%96%e3%83%a9%e3%83%bc%e3%83%80to%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab%ef%bc%88%e3%82%b5%e3%83%96%e3%82%a5%e3%83%bc%ef%bc%89.wmv"></iframe>						</td>
-   </tr>
-   <tr>
-    <td>相手が場外におり、自分がエプロンにいる状態で、セカンドロープに飛び乗り、ロープの反動で高く飛び上がり、後方270回転して場外への相手へボディプレスを見舞う。<br>
-     　トぺ・コンヒーロと並ぶ場外ダイブ系の花形の技で使用者も多い。
-     しかし中でもやはり開発したウルティモ・ドラゴンこと浅井嘉浩の名前が一番有名か。アメリカではアサイ・ムーンサルトと呼ばれているほどである。<br>
-    <br></td>
-   </tr>
-
-   <tr>
-    <td bgcolor="#99CCFF"><b><a name="270body3-2" id="270body3-2"></a>開脚式ラ・ケブラーダ</b></td>
-   </tr>
-   <tr>
-    <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx?path=%2f%u516c%u958b%2f%u958b%u811a%u5f0f%u30e9%u30fb%u30b1%u30d6%u30e9%u30fc%u30c0%uff08%u30af%u30ea%u30b9%u30c8%u30d5%u30a1%u30fc%u30fb%u30c0%u30cb%u30a8%u30eb%u30ba%uff09.wmv"></iframe></td>
-   </tr>
-   <tr>
-    <td>相手が場外におり自分がエプロンにいる状態で、トップロープに開脚状態で飛び乗り、ロープを踏んだ反動でさらに飛んで、後方270回転してボディプレスを見舞う。<br></td>
-   </tr>
-
-   <tr>
-    <td bgcolor="#99CCFF"><b><a name="270body3-3" id="270body3-3"></a>宇宙人ケブラーダ</b></td>
-   </tr>
-   <tr>
-    <td>リング内からロープに向かって走り、飛んで反転して場外に背中を向けた状態でトップロープに飛び乗る。そこからノンストップで後方270度回転して場外の相手にボディプレス。<br>
-     　TAKAみちのくの技。基本的には封印されており、宇宙人プランチャよりもさらに使用頻度は低い。<br>
-     <br></td>
-   </tr>
-
-   <tr>
-    <td bgcolor="#99CCFF"><b><a name="270body3-4" id="270body3-4"></a>三角飛びケブラーダ</b><br>
-      ≒バミューダ・トライアングル（ドラゴン・キッド）</td>
-   </tr>
-   <tr>
-    <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e4%b8%89%e8%a7%92%e9%a3%9b%e3%81%b3%e3%82%b1%e3%83%96%e3%83%a9%e3%83%bc%e3%83%80%ef%bc%88%e3%83%aa%e3%83%83%e3%82%ad%e3%83%bc%e3%83%bb%e3%83%9e%e3%83%ab%e3%83%93%e3%83%b3%ef%bc%89.wmv"></iframe></td>
-   </tr>
-   <tr>
-    <td>場外の相手に近いコーナーに向かって走り、セカンドロープに飛び乗り、さらにそこからジャンプして後方270度回転しながらロープを飛び越え、そのまま場外の相手にボディプレスを放っていく。またはコーナー付近で一旦トップロープを飛び越えてエプロン側のセカンドロープに着地し、そこからノンストップで後方270度回転していく場合もある。後者はバク宙しながらトップロープを飛び越えなくてもいいので、前者と比べると安全になる。<br>
-     　三角飛びでケブラーダとなるとかなり高難度で使い手も少ない。リッキー・マルビンとドラゴンキッドあたりが常用している。<br>
-     <br></td>
-   </tr>
-   <tr>
-    <td bgcolor="#99CCFF"><b><a name="270body3-5" id="270body3-5"></a>三角飛び式開脚ケブラーダ</b></td>
-   </tr>
-   <tr>
-    <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e4%b8%89%e8%a7%92%e9%a3%9b%e3%81%b3%e5%bc%8f%e9%96%8b%e8%84%9a%e3%82%b1%e3%83%96%e3%83%a9%e3%83%bc%e3%83%80%ef%bc%88%e3%82%a8%e3%82%b0%e3%82%bc%e3%82%a4%e3%83%b4%e3%82%a3%e3%82%a2%ef%bc%89.wmv"></iframe></td>
-   </tr>
-   <tr>
-    <td>コーナートップから相手の付近のトップロープへと飛び、開脚状態でロープを踏んだ反動で更に飛び、後方270度回転しつつボディプレスを放つ。<br>
-    <br></td>
-   </tr>
-  </table>
-  <br>
-  <hr color="#000000" size="1">
-  <br>
-  <table width="75%"  border="1">
-   <tr>
-    <td bgcolor="#99CCFF"><b><a name="270body4-1" id="270body4-1"></a>サスケ・スペシャル1号</b></td>
-   </tr>
-   <tr>
-    <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%82%b5%e3%82%b9%e3%82%b1%e3%83%bb%e3%82%b9%e3%83%9a%e3%82%b7%e3%83%a3%e3%83%ab%ef%bc%88%e9%a3%af%e4%bc%8f%e5%b9%b8%e5%a4%aa%ef%bc%89.wmv"></iframe></td>
-   </tr>
-   <tr>
-    <td>場外の相手に対して、リング内から走ってまずはロンダートを決めた後、そのままの勢いで飛んで自分の背後にあるロープを飛び越えつつ後方270度回転してボディプレスを放つ。<br>
-     ザ・グレート・サスケが開発し、未だに場外ダイブ技の中で最上位のカリスマ性・芸術性を誇る美技である。しかし背後にあるロープを見ずに後方宙返りしてトップロープを飛び越えなければならず、安全性の問題から早々と封印された。<br>
-     <br></td>
-   </tr>
-  </table>
-  <br>
-  <hr color="#000000" size="1">
-<br>
-  <table width="75%" border="1">
-    <tr>
-      <td bgcolor="#99CCFF"><b><a name="270t1senton1-1" id="270t1senton1-1"></a>バルキリースプラッシュ</b><br>
-	    ＝ルナウィング（倉垣翼）＝ムーンサルトウィング（倉垣翼）</td>
-    </tr>
-    <tr>
-     <td>コーナートップに立ち、リング外を向いて飛んで、後方270度回転してから更に半捻り（横方向180度回転）してセントーン。<br>
-      　KAORUが開発したムーンサルトセントーンとも言うべき技。使い手としては開発したKAORUの他にも、倉垣翼がルナウイング（旧名ムーンサルトウイング）の名前で使っている。<br>
-      <br></td>
-    </tr>
-  </table>
-  <br>
-  <hr color="#000000" size="1">
-  <br>
-  <table width="75%"  border="1">
-   <tr>
-    <td bgcolor="#99CCFF"><b><a name="270t1senton2-1" id="270t1senton2-1"></a>アルマニッシュ・エクスチェンジ</b></td>
-   </tr>
-   <tr>
-    <td>相手がロープと平行に倒れている状態で、セカンドロープに飛び乗り、ロープの反動で高く飛び上がり、後方270回転＆半捻り（横方向180度回転）してセントーン。<br>
-     　ミラノコレクションATの常用ムーブ。難しい技だが少々捻りすぎて微妙な存在感なためか、他にあまり使うレスラーはいない。<br>
-     <br></td>
-   </tr>
-  </table>
-  <br>
-  <hr color="#000000" size="1">
-  <br>
-  <table width="75%" border="1">
-    <tr>
-      <td bgcolor="#99CCFF"><b><a name="270t1elbow1-1" id="270t1elbow1-1"></a>マテリアル</b></td>
-    </tr>
-    <tr>
-      <td>コーナートップに立ち、リング外を向いて飛んで、後方270度回転してから更に半捻り（横方向180度回転）してエルボードロップ。<br>
-　上のバルキリースプラッシュのエルボードロップ版。DDTのMIKAMIが開発したが工夫しすぎの感もあり、他に使い手がいない。<br>
-<br></td>
-    </tr>
-  </table>
-  <br>
-  <hr color="#000000" size="1">
-  <br>
-  <table width="75%" border="1">
-    <tr>
-      <td bgcolor="#99CCFF"><b><a name="270t2body1-1" id="270t2body1-1"></a>スカイツイスタープレス（パターン1）</b><br>
-	    ＝カンクーントルネード（ウルティモドラゴン）＝テングトルネード（テングカイザー）<BR>
-		＝カミカゼトルネード（神風）＝スーパーダンスversion2（Hi69）＝ヤンタイム（ジミー・ヤン）<br>
-		＝開運トルネード（えべっさん）＝関空トルネード（食いしんぼう仮面）＝ハリケーンプレス（南条隼人）</td>
-    </tr>
-    <tr>
-     <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a4%e3%83%b3%e3%82%bf%e3%82%a4%e3%83%a0%ef%bc%88%e3%82%b8%e3%83%9f%e3%83%bc%e3%83%bb%e3%83%a4%e3%83%b3%ef%bc%89.wmv"></iframe><br>
-					<iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%82%b9%e3%82%ab%e3%82%a4%e3%83%84%e3%82%a4%e3%82%b9%e3%82%bf%e3%83%bc%e3%83%97%e3%83%ac%e3%82%b9to%e5%a0%b4%e5%a4%96%ef%bc%88%e3%83%86%e3%83%83%e3%83%89%e3%83%bb%e3%83%8f%e3%83%bc%e3%83%88%ef%bc%89.wmv"></iframe></td>
-    </tr>
-    <tr>
-      <td>リング外を向きながらコーナートップに立ち、飛んで後方270度回転と1回捻り（横方向360度回転）を同時に行いつつボディプレス。<br>
-        　元体操選手のチャパリータASARIが今は亡き全女の入団テストのために準備して披露したという超高難度技。縦回転＋横回転の飛び技としてはこれが始めてか。今なお絶対的な地位を譲らないのも頷けるというもの。人気があり使い手はかなり多いが、人によって非常にフォームに差が出る。<br>
-        　使い手に関しては発表されてからの数年が一番多く、ウルティモドラゴンやえべっさんが有名だった。また棚橋弘至も一時期使っていた他、あの技制限が厳しいことで有名なWWEでもジョン・モリスンがジョニー・ナイトロ名義の時に繋ぎ技として（！）使っていた。<br>
-        　しかし意外なことに、今現在常用しているレスラーはジミー・ヤンぐらいしかいない。<br>
-      <br></td>
-    </tr>
-  </table>
-  <br>
-  <hr color="#000000" size="1">
-  <br>
-  <table width="75%" border="1">
-    <tr>
-      <td bgcolor="#99CCFF"><b><a name="270t3leg1-1" id="270t3leg1-1"></a>インフラレッド</b><br>
-			＝オープンハートサージェリー（パターン2／テディ・ハート）＝スカイツイスタープレス（パターン2／チャパリータASARI）</td>
-    </tr>
-    <tr>
-     <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%83%ac%e3%83%83%e3%83%89%ef%bc%88%e3%82%a2%e3%83%a1%e3%83%bc%e3%82%b8%e3%83%b3%e3%82%b0%e3%83%bb%e3%83%ac%e3%83%83%e3%83%89%ef%bc%89.wmv"></iframe></td>
-    </tr>
-    <tr>
-      <td>リング外を向いてコーナートップに立ち、飛んで後方270度回転と1回半捻り（横方向540度回転）を同時に行いつつレッグドロップ。<BR>
-      　初期ROHマットなどで活躍した飛び技師・アメージングレッドのフィニッシュムーブの一つ。スカイツイスタープレスから更に180度回転してレッグドロップするという神業。ただしコントロールは相当悪いため、受ける相手はかなりの覚悟を要求されるだろう。<br>
-      　ちなみにオープンハートサージェリーがパターン2となっているのは、実は「スパイラルタップ」（前方回転系の項目で掲載）とほぼ同形の技もオープンハートサージェリーと呼ばれているらしいので。<br>
-      　今までずっとアメージング・レッドが最初だと思っていたが、某スレにて実はチャパリータASARIが「スカイツイスタープレス」の名前でこちらの形も使っていたことが判明。どうもプレスの形だと膝を強打するためもう半回転多く回っていたらしい。とんでもない話である。<br>
-      <br></td>
-    </tr>
-  </table>
-  <br>
-  <hr color="#000000" size="1">
-  <br>
-  <table width="75%" border="1">
-   <tr>
-    <td bgcolor="#99CCFF"><b><a name="270t3legX-1" id="270t3legX-1"></a>スワンダイブ式インフラレッド</b></td>
-   </tr>
-   <tr>
-    <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx?path=%2f%u516c%u958b%2f%u30b9%u30ef%u30f3%u30c0%u30a4%u30d6%u5f0f%u30a4%u30f3%u30d5%u30e9%u30ec%u30c3%u30c9%uff08%u30b8%u30e3%u30c3%u30af%u30fb%u30a8%u30f4%u30a1%u30f3%u30b9%uff09.wmv"></iframe></td>
-   </tr>
-   <tr>
-    <td>トップロープに飛び乗り、ロープを踏んだ反動を使って更に飛び、後方270度回転と1回半捻り（横方向540度回転）を同時に行いつつレッグドロップを放つ。
+  <div align="center"><br>
     <br>
-    <br></td>
-   </tr>
-  </table>
-  <br>
-  <hr color="#000000" size="1">
-<br>
-  <table width="75%"  border="1">
-   <tr>
-    <td bgcolor="#99CCFF"><b></b><b><a name="360elbow2-1" id="360elbow2-1"></a>ラ・ブファドーラ＋180°</b></td>
-   </tr>
-   <tr>
-    <td>セカンドロープに飛び乗り、ロープの反動で高く飛び上がり、後方360度回転して、立っている相手に対してバックエルボーを放つ。<br>
-     　義経の持ち技の一つ。かなり無茶で、魅せ技としては一級品だが、流石にバックエルボーでは技の説得力として物足りない。<br>
-     <br></td>
-   </tr>
-  </table>
-  <br>
-  <hr color="#000000" size="1">
-  <br>
-  <table width="75%"  border="1">
-   <tr>
-    <td bgcolor="#99CCFF"><b><a name="360ddt2-1" id="360ddt2-1"></a>フェノメノンDDT</b></td>
-   </tr>
-   <tr>
-    <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%95%e3%82%a7%e3%83%8e%e3%83%a1%e3%83%8e%e3%83%b3DDT%ef%bc%88AJ%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%82%ba%ef%bc%89.wmv"></iframe></td>
-   </tr>
-   <tr>
-    <td>セカンドロープに飛び乗り、ロープの反動で高く飛び上がり、リング内の立っている敵に対して後方1回転しながら相手の首を掴みつつ、敵の背後〜側面に着地する。そこから敵と一緒に後方に倒れて、相手の頭を打ち付ける。<br>
-     　AJスタイルズの常用ムーブとして有名だが、日本では石森太二も時々使っている。高い運動能力と正確さを基に成立する難しい技であることは分かるが、ちょっと奇をてらいすぎなような気もしなくはない。<br>
-     <br></td>
-   </tr>
-  </table>
-  <br>
-  <hr color="#000000" size="1">
-  <br>
-  <table width="75%" border="1">
-    <tr>
-      <td bgcolor="#99CCFF"><b></b><b><a name="360knee1-1" id="360knee1-1"></a>ムーンサルトダブルニードロップ</b></td>
-    </tr>
-    <tr>
-      <td>リング外を向いてコーナートップに立ち、飛んで後方360度回転しつつダブルニードロップ。<BR>
-      　ムーンサルトフットスタンプから発想を得たか。両膝を落とすえげつない技。KUDOが使っているらしいが、スタンディング版は他の選手も時々使うのを見かける。<br>
-      <br></td>
-    </tr>
-  </table>
-  <br>
-  <hr color="#000000" size="1">
-  <br>
-  <table width="75%" border="1">
-    <tr>
-      <td bgcolor="#99CCFF"><b><a name="360foot1-1" id="360foot1-1"></a>ムーンサルトフットスタンプ<br>
-      </b>＝リープ・オブ・フェイス（ラッカス）</td>
-    </tr>
-    <tr>
-      <td>リング外を向いてコーナートップに立ち、飛んで後方360度回転しつつフットスタンプ。<BR>
-      　女子プロが生んだ最凶最悪の飛び技。福岡晶がフィニッシュムーブとして使用して一時代を築いたが、あまりにもコントロールが難しく、受け手にダメージが行き過ぎるため、使い手はほとんどいない。<br>
-      <br></td>
-    </tr>
-  </table>
-  <br>
-  <hr color="#000000" size="1">
-  <br>
-  <table width="75%"  border="1">
-   <tr>
-    <td bgcolor="#99CCFF"><b><a name="360ddt2-1" id="360ddt2-1"></a>フェノメノンDDT</b></td>
-   </tr>
-   <tr>
-    <td></td>
-   </tr>
-   <tr>
-    <td>セカンドロープに飛び乗り、ロープの反動で高く飛び上がり、リング内の立っている敵に対して後方1回転しながら相手の首を掴みつつ、敵の背後〜側面に着地する。そこから敵と一緒に後方に倒れて、相手の頭を打ち付ける。<br>
-     　AJスタイルズの常用ムーブ。日本では石森太二も使う。高い運動能力と正確さを基に成立する難しい技であることは分かるが、ちょっと奇をてらいすぎなような気もする。<br>
-     <br></td>
-   </tr>
-  </table>
-  <br>
-  <hr color="#000000" size="1">
-  <br>
-<br>
-  <table width="75%" border="1">
-    <tr>
-      <td bgcolor="#99CCFF"><b></b><b><a name="450senton1-1" id="450senton1-1"></a>セントーン・レベルサ</b><br>
-     ＝スーサイドボム（MIKAMI）</td>
-    </tr>
-    <tr>
-      <td>リング外を向いてコーナートップに立ち、飛んで後方450度回転しつつセントーン。<BR>
-        　使い手は少なくグレートサスケとMIKAMIだけか。他にもできる者はいるだろうが、コントロールに難があること、後方飛び系セントーンはイマイチ見栄えが悪いことから敬遠されているように感じる。<br>
-      <br></td>
-    </tr>
-  </table>
-  <br>
-  <hr color="#000000" size="1">
-  <br>
-  <table width="75%" border="1">
-    <tr>
-      <td bgcolor="#99CCFF"><b><a name="630body1-1" id="630body1-1"></a>ダブル・ムーンサルト<br>
-      </b>＝SOS（Splash Of Suicide）（MIKAMI）＝スタンティン101（Stuntin' 101）（ジャック・エヴァンス）</td>
-    </tr>
-    <tr>
-     <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;" src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx?path=%2f%u516c%u958b%2f%u30b9%u30bf%u30f3%u30c6%u30a3%u30f3101from%u30b1%u30fc%u30b8%u30c8%u30c3%u30d7%uff08%u30b8%u30e3%u30c3%u30af%u30fb%u30a8%u30f4%u30a1%u30f3%u30b9%uff09.wmv"></iframe></td>
-    </tr>
-    <tr>
-      <td>リング外を向いてコーナートップに立ち、飛んで後方630度回転しつつボディプレス。2回転ムーンサルト。<br>
-       　最初に実戦投入を果たしたのはジャック・エヴァンスだが、彼でさえケージトップから繰り出したり、スワンダイブ式で場外に向かったりして放つのみで、コーナートップからリング内へ成功させたことはない。日本人ではDDTのMIKAMIが公開練習にてラダートップから繰り出したが実戦で使うには至らなかった。<br>
-       　ジャック・エヴァンスを始めとしたとびきりの飛び技師でも無理だったことから、「ダブルムーンサルトをコーナートップからやるのは人間には無理」とさえ考えられていたが、ついにCZWやIWAミッドサウスなど米インディで活動するリコシェ（Ricochet）がコーナートップからリング内へ成功させた。その後も時々フィニッシュムーブに使用しているようだ。<br>
-     <br></td>
-    </tr>
-  </table>
-  <br>
-  <hr color="#000000" size="1">
-  <br>
-  <br>
-  <br>
-  <a href="../move.htm">技研究トップに戻る</a> <br>
-  <br>
-</div>
+    <table width="95%" border="1">
+      <tr>
+        <td width="12%" nowrap>回転・行動／条件</td>
+        <td width="22%" nowrap class="header1">
+          <div align="center">コーナーから飛ぶ</div>
+        </td>
+        <td width="22%" nowrap class="header1">
+          <div align="center">ロープを使ってリング内へ飛ぶ</div>
+        </td>
+        <td width="22%" nowrap class="header1">
+          <div align="center">ロープを使ってリング外へ飛ぶ</font>
+          </div>
+        </td>
+        <td width="22%" nowrap class="header1">
+          <div align="center">直接ダイブ</div>
+        </td>
+      </tr>
+      <tr>
+        <td width="12%" nowrap bgcolor="#99CCFF">後方270度回転<br>
+          ボディプレス</font>
+        </td>
+        <td width="22%"><a href="#270body1-1">★ムーンサルトプレス <br>
+            ＝月面水爆 <br>
+            ≒ムーンサルトアタック</a><br>
+          <a href="#270body1-2">●開脚式ムーンサルトプレス<br>
+            ＝スプリットレッグドムーンサルト <br>
+            ＝ハリウッドスタープレス</a><br>
+          <a href="#270body1-3">●スーパーダンス</a><br>
+          <a href="#270body1-4">●ボーイングボーイングスプラッシュ</a> <br>
+          <a href="#270body1-5">●エルニーニョ </a><br>
+          <a href="#270body1-6">●トリフェクタ</a><br>
+          <a href="#270body1-7">●BME（Best Moonsault Ever）</a><a href="#270body1-7"></font></a>
+        </td>
+        <td><a href="#270body2-1">★ラ・ブファドーラ<br>
+            ＝ライオンサルト<br>
+            ＝セカンドロープムーンサルトプレス<br>
+            ＝エンポリオ・アルマニッシュ<br>
+            ≒セカンドロープムーンサルトアタック</a></a><br>
+          <a href="#270body2-2">★開脚式ラ・ブファドーラ</a></a><br>
+          <a href="#270body2-3">●三角飛び式ムーンサルトプレス<br>
+            ＝ローラーコースター</a>
+        </td>
+        <td><a href="#270body3-1">★ラ・ケブラーダ</a><br>
+          <a href="#270body3-2">★開脚式ラ・ケブラーダ</a><br>
+          <a href="#270body3-3">●宇宙人ケブラーダ</a><br>
+          <a href="#270body3-4">★三角飛びケブラーダ<br>
+            ≒バミューダ・トライアングル</a><br>
+          <a href="#270body3-5">★三角飛び式開脚ケブラーダ</a>
+        </td>
+        <td width="22%"><a href="#270body4-1">●サスケ・スペシャル1号</a></td>
+      </tr>
+
+      <tr>
+        <td width="12%" nowrap bgcolor="#99CCFF">後方270度回転半捻り<br>
+          セントーン</font>
+        </td>
+        <td width="22%"><a href="#270t1senton1-1">●バルキリースプラッシュ<br>
+            ＝ルナウィング<br>
+            ＝ムーンサルトウィング </a><a href="#270t1senton1-1"></a></font></a></td>
+        <td width="22%"><a href="#270t1senton2-1">●アルマニッシュ・エクスチェンジ</a></td>
+        <td width="22%">——</font>
+        </td>
+        <td width="22%">——</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="12%" nowrap bgcolor="#99CCFF">後方270度回転半捻り<br>
+          エルボードロップ</font>
+        </td>
+        <td width="22%"><a href="#270t1elbow1-1">●マテリアル</a><a href="#270t1elbow1-1"></font></a></td>
+        <td width="22%">——</font>
+        </td>
+        <td width="22%">——</font>
+        </td>
+        <td width="22%">——</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="12%" nowrap bgcolor="#99CCFF">後方270度回転1回捻り<br>
+          ボディプレス</font>
+        </td>
+        <td width="22%"><a href="#270t2body1-1">★スカイツイスタープレス（パターン1）<br>
+            ＝カンクーントルネード<BR>
+            ＝テングトルネード<BR>
+            ＝カミカゼトルネード<BR>
+            ＝スーパーダンスversion2<BR>
+            ＝ヤンタイム<BR>
+            ＝開運トルネード<BR>
+            ＝関空トルネード<BR>
+            ＝ハリケーンプレス</a><a href="#270t2body1-1"></font></a></td>
+        <td colspan="2">●スワンダイブ式スカイツイスタープレス</td>
+        <td width="22%">——</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="12%" nowrap bgcolor="#99CCFF">後方270度回転1回半捻り<br>
+          レッグドロップ</font>
+        </td>
+        <td width="22%"><a href="#270t3leg1-1">●インフラレッド<br>
+            ＝オープンハートサージェリー（パターン2）<br>
+            ＝スカイツイスタープレス（パターン2）</a></td>
+        <td colspan="2"><a href="#270t3legX-1">★スワンダイブ式インフラレッド</a></td>
+        <td width="22%">——</font>
+        </td>
+      </tr>
+      <tr>
+        <td nowrap bgcolor="#99CCFF">後方360度回転<br>
+          エルボーアタック</td>
+        <td>——</font>
+        </td>
+        <td><a href="#360elbow2-1">●ラ・ブファドーラ＋180°</a></td>
+        <td>——</font>
+        </td>
+        <td>——</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="12%" nowrap bgcolor="#99CCFF">後方360度回転<br>
+          ニードロップ</font>
+        </td>
+        <td width="22%"><a href="#360knee1-1">●ムーンサルトダブルニードロップ</a></font>
+        </td>
+        <td width="22%">——</font>
+        </td>
+        <td width="22%">——</font>
+        </td>
+        <td width="22%">——</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="12%" nowrap bgcolor="#99CCFF">後方360度回転<br>
+          フットスタンプ</font>
+        </td>
+        <td width="22%"><a href="#360foot1-1">●ムーンサルトフットスタンプ<br>
+            ＝リープ・オブ・フェイス</a><a href="#360foot1-1"></font></a></td>
+        <td width="22%">——</font>
+        </td>
+        <td width="22%">——</font>
+        </td>
+        <td width="22%">——</font>
+        </td>
+      </tr>
+      <tr>
+        <td nowrap bgcolor="#99CCFF">後方360度回転<br>
+          飛びつきリバースDDT </font>
+        </td>
+        <td>——</font>
+        </td>
+        <td><a href="#360ddt2-1">★フェノメノンDDT</a></td>
+        <td>——</font>
+        </td>
+        <td>——</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="12%" nowrap bgcolor="#99CCFF">後方450度回転<br>
+          セントーン</font>
+        </td>
+        <td width="22%"><a href="#450senton1-1">●セントーン・レベルサ<br>
+            ＝スーサイドボム</a><a href="#450senton-1"></font></a></td>
+        <td width="22%">——</font>
+        </td>
+        <td width="22%">——</font>
+        </td>
+        <td width="22%">——</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="12%" nowrap bgcolor="#99CCFF">後方630度回転<br>
+          ボディプレス</font>
+        </td>
+        <td width="22%"><a href="#630body1-1">★ダブル・ムーンサルト<br>
+            ＝スタンティン101（Stuntin'101）<br>
+            ＝SOS（Splash Of Suicide）</a><a href="#630body1-1"></font></a><br></td>
+        <td width="22%">——</font>
+        </td>
+        <td width="22%">——</font>
+        </td>
+        <td width="22%">——</font>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270body1-1" id="270body1-1"></a>ムーンサルトプレス</b><br>
+          ＝月面水爆
+          <br>
+          ≒ムーンサルトアタック
+        </td>
+      </tr>
+      <tr>
+        <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a0%e3%83%bc%e3%83%b3%e3%82%b5%e3%83%ab%e3%83%88%e3%83%97%e3%83%ac%e3%82%b9%ef%bc%88%e6%bd%ae%e5%b4%8e%e8%b1%aa%ef%bc%89.wmv"></iframe><br>
+          <iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a0%e3%83%bc%e3%83%b3%e3%82%b5%e3%83%ab%e3%83%88%e3%83%97%e3%83%ac%e3%82%b9%ef%bc%88%e9%87%91%e4%b8%b8%e7%be%a9%e4%bf%a1%ef%bc%89.wmv"></iframe><br>
+          <iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a0%e3%83%bc%e3%83%b3%e3%82%b5%e3%83%ab%e3%83%88%e3%83%97%e3%83%ac%e3%82%b9%ef%bc%88%e9%a3%af%e4%bc%8f%e5%b9%b8%e5%a4%aa%ef%bc%89.wmv"></iframe>
+        </td>
+      </tr>
+      <tr>
+        <td>コーナートップに立ち、リング外を向いて飛んで、後方270度回転しつつボディプレス。もしくは立っている相手に体当たりをしかけていく。<br>
+          　プロレスにおける飛び技の代名詞的な技。近年では高難度化に伴い、クルーザー級よりむしろヘビー級のフィニッシュムーブとして見る機会の方が多いかもしれない。コーナーの高さがある上に270度回転でいいので、バク宙より簡単な点がヘビー級に使われる理由の一つだろう。<BR>
+          　やるだけなら簡単とはいえ、相手に怪我させず綺麗なフォームを描くには相当な熟練が必要であり、使い手によってはっきり違いが出る。ヘビー級の場合、大抵上位フィニッシュムーブとして使われるが、その中でも2種類に分かれ、綺麗で安定したフォームの物と、超巨体で押し潰すタイプの物が多い。意外なことにWWEではほとんどフィニッシュムーブにならない。<br>
+          　有名な使い手としては武藤敬司や小橋建太、変わり種としてはカート・アングル等がいる。<br>
+          <br>
+        </td>
+      </tr>
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270body1-2" id="270body1-2"></a>開脚式ムーンサルトプレス</b><br>
+          ＝スプリットレッグドムーンサルト（ロブ・ヴァン・ダム）＝ハリウッドスタープレス（ロブ・ヴァン・ダム）</td>
+      </tr>
+      <tr>
+        <td>コーナートップに立ち、リング外を向いてその場飛びで開脚し、ロープリバウンドを利用して後方270度回転しつつボディプレス。<br>
+          　RVDが昔から使ってる技で一時期はフィニッシュムーブだったことも。恐るべき柔軟性をもつ彼らしい技。ただあまり名前が認知されていないので、分かりやすい「開脚式ムーンサルトプレス」をトップとしました。<br>
+          <br>
+        </td>
+      </tr>
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270body1-3" id="270body1-3"></a>スーパーダンス</b></td>
+      </tr>
+      <tr>
+        <td>エプロンに立ち、飛び上がりながら反転して、リング外を向いた状態でコーナートップに着地。そこから間を置かずに飛んで、後方270度回転しつつボディプレス。<br>
+          　Hi69のフィニッシュムーブ。師匠のTAKAみちのくが使う「宇宙人ケブラーダ」の影響が伺える。<br>
+          <br>
+        </td>
+      </tr>
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270body1-4" id="270body1-4"></a>ボーイングボーイングスプラッシュ</b></td>
+      </tr>
+      <tr>
+        <td>コーナー際のセカンドロープに登り、リング内を向いてアピール。そこから飛びつつ空中で反転しリング外を向いた状態になり、そのまま開脚してトップロープのリバウンドを利用。そこから後方270度回転からのボディプレス。<br>
+          　リッキー・マルビンが一時期フィニッシュムーブとして使っていた。<br>
+          <br>
+        </td>
+      </tr>
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270body1-5" id="270body1-5"></a>エルニーニョ</b></td>
+      </tr>
+      <tr>
+        <td>コーナーを一気に駆け上がって飛び、後方270度回転してボディプレス。<br>
+          　中邑真輔が元祖の技なのだが、初期はニードロップだったとの情報もあり。今風に工夫したつもりかもしれないが、劣化ムーンサルトプレスな印象は拭えない。<br>
+          <br>
+        </td>
+      </tr>
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270body1-6" id="270body1-6"></a>トリフェクタ</b></td>
+      </tr>
+      <tr>
+        <td>コーナー際にリング外を向いて立ち、サードロープ→セカンドロープ→トップロープと3回連続でムーンサルトプレスを行う。<br>
+          　スペル・クレイジーの持ちムーブの一つ。流石に労力に見合ってないので、現在はほとんど見ることができない。<br>
+          <br>
+        </td>
+      </tr>
+
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270body1-7" id="270body1-7"></a>BME（Best Moonsault Ever）</b></td>
+      </tr>
+      <tr>
+        <td>コーナー際にリング外を向いて立ち、まずセカンドロープに飛び、さらに飛んでトップロープに着地して、ロープバウンドを利用しつつ、後方270度回転してボディプレス。<br>
+          　クリストファー・ダニエルズのフィニッシュムーブ。見事な3テンポのタイミングとフォームで魅せてくれます。<br>
+          <br>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270body2-1" id="270body2-1"></a>ラ・ブファドーラ</b><br>
+          ＝セカンドロープムーンサルトプレス＝ライオンサルト（クリス・ジェリコ）＝エンポリオ・アルマニッシュ（ミラノ・コレクションAT）<br>
+          ≒セカンドロープムーンサルトアタック</td>
+      </tr>
+      <tr>
+        <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a9%e3%83%bb%e3%83%96%e3%83%95%e3%82%a1%e3%83%89%e3%83%bc%e3%83%a9%ef%bc%88%e3%82%b9%e3%83%9a%e3%83%ab%e3%83%bb%e3%82%af%e3%83%ac%e3%82%a4%e3%82%b8%e3%83%bc%ef%bc%89.wmv"></iframe><br>
+          <iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a9%e3%83%bb%e3%83%96%e3%83%95%e3%82%a1%e3%83%89%e3%83%bc%e3%83%a9%ef%bc%88%e3%83%aa%e3%83%83%e3%82%ad%e3%83%bc%e3%83%bb%e3%83%9e%e3%83%ab%e3%83%93%e3%83%b3%ef%bc%89.wmv"></iframe><br>
+          <iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx?path=%2f%u516c%u958b%2f%u30e9%u30fb%u30d6%u30d5%u30a1%u30c9%u30fc%u30e9from%u30c8%u30c3%u30d7%u30ed%u30fc%u30d7%uff08%u30ea%u30c3%u30ad%u30fc%u30fb%u30de%u30eb%u30d3%u30f3%uff09.wmv"></iframe><br>
+          <iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a9%e3%83%bb%e3%83%96%e3%83%95%e3%82%a1%e3%83%89%e3%83%bc%e3%83%a9from%e3%83%a9%e3%83%80%e3%83%bc%ef%bc%88MIKAMI%ef%bc%89.wmv"></iframe><br>
+          <iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%84%e3%83%bc%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%e3%83%bb%e3%83%a9%e3%83%bb%e3%83%96%e3%83%95%e3%82%a1%e3%83%89%e3%83%bc%e3%83%a9%ef%bc%88%e3%82%ab%e3%83%aa%e3%83%bc%e3%83%88%ef%bc%89.wmv"></iframe>
+        </td>
+      </tr>
+      <tr>
+        <td>相手がロープと平行に倒れている状態で、セカンドロープに飛び乗り、ロープの反動で高く飛び上がり、後方270回転してボディプレス。<br>
+          元々ルチャの技であるが、世界的に有名にしたのはクリス・ジェリコ。ヘビー級の体格で30歳を過ぎ、WWEの過酷なスケジュール・強烈な技制限にもめげず繰り出し続けるその姿は正直凄いという他ない。<br>
+          　また色々といわくつきの技でもあり、2001年に当時インディーの大スターであり随一の飛び技使いでもあったハヤブサが失敗、頚椎を損傷し全身不随の重傷を負って引退を余儀なくされている。また前記のクリス・ジェリコも2002年に、飛び乗ったセカンドロープが外れてあやうく事故になりそうになったことがある。（実際はトップロープを持ったまま、場外に足が飛び出しただけで済んだ）<br>
+          <br>
+        </td>
+      </tr>
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270body2-2" id="270body2-2"></a>開脚式ラ・ブファドーラ</b></td>
+      </tr>
+      <tr>
+        <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e9%96%8b%e8%84%9a%e5%bc%8f%e3%83%a9%e3%83%bb%e3%83%96%e3%83%95%e3%82%a1%e3%83%89%e3%83%bc%e3%83%a9%ef%bc%88%e3%82%b9%e3%83%9a%e3%83%ab%e3%83%bb%e3%82%af%e3%83%ac%e3%82%a4%e3%82%b8%e3%83%bc%ef%bc%89.wmv"></iframe><br>
+          <iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx?path=%2f%u516c%u958b%2f%u958b%u811a%u5f0f%u30e9%u30fb%u30d6%u30d5%u30a1%u30c9%u30fc%u30e9%uff08%u30af%u30ea%u30b9%u30c8%u30d5%u30a1%u30fc%u30fb%u30c0%u30cb%u30a8%u30eb%u30ba%uff09.wmv"></iframe>
+        </td>
+      </tr>
+      <tr>
+        <td>相手がロープと平行に倒れている状態で、ロープに開脚した状態で飛び乗り、ロープの反動で高く飛び上がり、後方270回転してボディプレス。<br>
+          　こちらのタイプは難易度が高く、クリストファー・ダニエルズがたまーに使うぐらいに留まっている。<br></td>
+      </tr>
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270body2-3" id="270body2-3"></a>三角跳び式ムーンサルトプレス<br>
+          </b>＝ローラーコースター（堀口元気）</td>
+      </tr>
+      <tr>
+        <td>
+          相手がロープと平行に倒れている状態で、コーナー付近で自分の横側にあるセカンドロープに90度横回転しつつ飛び乗り、その後、再度自分の横側（最初の状態から正面）にあるトップロープへ90度横回転しつつ飛び乗って、そこから後方270回転してボディプレス。<br>
+          　色々とバリエーションがある三角跳びムーンサルトシリーズの基本形。<br>
+          <br>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270body3-1" id="270body3-1"></a>ラ・ケブラーダ</b></td>
+      </tr>
+      <tr>
+        <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a9%e3%83%bb%e3%82%b1%e3%83%96%e3%83%a9%e3%83%bc%e3%83%80%ef%bc%88%e3%82%b9%e3%83%9a%e3%83%ab%e3%83%bb%e3%82%af%e3%83%ac%e3%82%a4%e3%82%b8%e3%83%bc%ef%bc%89.wmv"></iframe><br>
+          <iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a9%e3%83%bb%e3%82%b1%e3%83%96%e3%83%a9%e3%83%bc%e3%83%80%ef%bc%88%e3%82%b5%e3%83%b3%e3%82%b8%e3%82%a7%e3%82%a4%e3%83%bb%e3%83%80%e3%83%83%e3%83%88%ef%bc%89.wmv"></iframe><br>
+          <iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a9%e3%83%bb%e3%82%b1%e3%83%96%e3%83%a9%e3%83%bc%e3%83%80to%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab%ef%bc%88%e3%82%b5%e3%83%96%e3%82%a5%e3%83%bc%ef%bc%89.wmv"></iframe>
+        </td>
+      </tr>
+      <tr>
+        <td>相手が場外におり、自分がエプロンにいる状態で、セカンドロープに飛び乗り、ロープの反動で高く飛び上がり、後方270回転して場外への相手へボディプレスを見舞う。<br>
+          　トぺ・コンヒーロと並ぶ場外ダイブ系の花形の技で使用者も多い。
+          しかし中でもやはり開発したウルティモ・ドラゴンこと浅井嘉浩の名前が一番有名か。アメリカではアサイ・ムーンサルトと呼ばれているほどである。<br>
+          <br>
+        </td>
+      </tr>
+
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270body3-2" id="270body3-2"></a>開脚式ラ・ケブラーダ</b></td>
+      </tr>
+      <tr>
+        <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx?path=%2f%u516c%u958b%2f%u958b%u811a%u5f0f%u30e9%u30fb%u30b1%u30d6%u30e9%u30fc%u30c0%uff08%u30af%u30ea%u30b9%u30c8%u30d5%u30a1%u30fc%u30fb%u30c0%u30cb%u30a8%u30eb%u30ba%uff09.wmv"></iframe>
+        </td>
+      </tr>
+      <tr>
+        <td>相手が場外におり自分がエプロンにいる状態で、トップロープに開脚状態で飛び乗り、ロープを踏んだ反動でさらに飛んで、後方270回転してボディプレスを見舞う。<br></td>
+      </tr>
+
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270body3-3" id="270body3-3"></a>宇宙人ケブラーダ</b></td>
+      </tr>
+      <tr>
+        <td>リング内からロープに向かって走り、飛んで反転して場外に背中を向けた状態でトップロープに飛び乗る。そこからノンストップで後方270度回転して場外の相手にボディプレス。<br>
+          　TAKAみちのくの技。基本的には封印されており、宇宙人プランチャよりもさらに使用頻度は低い。<br>
+          <br>
+        </td>
+      </tr>
+
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270body3-4" id="270body3-4"></a>三角飛びケブラーダ</b><br>
+          ≒バミューダ・トライアングル（ドラゴン・キッド）</td>
+      </tr>
+      <tr>
+        <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e4%b8%89%e8%a7%92%e9%a3%9b%e3%81%b3%e3%82%b1%e3%83%96%e3%83%a9%e3%83%bc%e3%83%80%ef%bc%88%e3%83%aa%e3%83%83%e3%82%ad%e3%83%bc%e3%83%bb%e3%83%9e%e3%83%ab%e3%83%93%e3%83%b3%ef%bc%89.wmv"></iframe>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          場外の相手に近いコーナーに向かって走り、セカンドロープに飛び乗り、さらにそこからジャンプして後方270度回転しながらロープを飛び越え、そのまま場外の相手にボディプレスを放っていく。またはコーナー付近で一旦トップロープを飛び越えてエプロン側のセカンドロープに着地し、そこからノンストップで後方270度回転していく場合もある。後者はバク宙しながらトップロープを飛び越えなくてもいいので、前者と比べると安全になる。<br>
+          　三角飛びでケブラーダとなるとかなり高難度で使い手も少ない。リッキー・マルビンとドラゴンキッドあたりが常用している。<br>
+          <br>
+        </td>
+      </tr>
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270body3-5" id="270body3-5"></a>三角飛び式開脚ケブラーダ</b></td>
+      </tr>
+      <tr>
+        <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e4%b8%89%e8%a7%92%e9%a3%9b%e3%81%b3%e5%bc%8f%e9%96%8b%e8%84%9a%e3%82%b1%e3%83%96%e3%83%a9%e3%83%bc%e3%83%80%ef%bc%88%e3%82%a8%e3%82%b0%e3%82%bc%e3%82%a4%e3%83%b4%e3%82%a3%e3%82%a2%ef%bc%89.wmv"></iframe>
+        </td>
+      </tr>
+      <tr>
+        <td>コーナートップから相手の付近のトップロープへと飛び、開脚状態でロープを踏んだ反動で更に飛び、後方270度回転しつつボディプレスを放つ。<br>
+          <br>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270body4-1" id="270body4-1"></a>サスケ・スペシャル1号</b></td>
+      </tr>
+      <tr>
+        <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%82%b5%e3%82%b9%e3%82%b1%e3%83%bb%e3%82%b9%e3%83%9a%e3%82%b7%e3%83%a3%e3%83%ab%ef%bc%88%e9%a3%af%e4%bc%8f%e5%b9%b8%e5%a4%aa%ef%bc%89.wmv"></iframe>
+        </td>
+      </tr>
+      <tr>
+        <td>場外の相手に対して、リング内から走ってまずはロンダートを決めた後、そのままの勢いで飛んで自分の背後にあるロープを飛び越えつつ後方270度回転してボディプレスを放つ。<br>
+          ザ・グレート・サスケが開発し、未だに場外ダイブ技の中で最上位のカリスマ性・芸術性を誇る美技である。しかし背後にあるロープを見ずに後方宙返りしてトップロープを飛び越えなければならず、安全性の問題から早々と封印された。<br>
+          <br>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270t1senton1-1" id="270t1senton1-1"></a>バルキリースプラッシュ</b><br>
+          ＝ルナウィング（倉垣翼）＝ムーンサルトウィング（倉垣翼）</td>
+      </tr>
+      <tr>
+        <td>コーナートップに立ち、リング外を向いて飛んで、後方270度回転してから更に半捻り（横方向180度回転）してセントーン。<br>
+          　KAORUが開発したムーンサルトセントーンとも言うべき技。使い手としては開発したKAORUの他にも、倉垣翼がルナウイング（旧名ムーンサルトウイング）の名前で使っている。<br>
+          <br>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270t1senton2-1" id="270t1senton2-1"></a>アルマニッシュ・エクスチェンジ</b></td>
+      </tr>
+      <tr>
+        <td>相手がロープと平行に倒れている状態で、セカンドロープに飛び乗り、ロープの反動で高く飛び上がり、後方270回転＆半捻り（横方向180度回転）してセントーン。<br>
+          　ミラノコレクションATの常用ムーブ。難しい技だが少々捻りすぎて微妙な存在感なためか、他にあまり使うレスラーはいない。<br>
+          <br>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270t1elbow1-1" id="270t1elbow1-1"></a>マテリアル</b></td>
+      </tr>
+      <tr>
+        <td>コーナートップに立ち、リング外を向いて飛んで、後方270度回転してから更に半捻り（横方向180度回転）してエルボードロップ。<br>
+          　上のバルキリースプラッシュのエルボードロップ版。DDTのMIKAMIが開発したが工夫しすぎの感もあり、他に使い手がいない。<br>
+          <br>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270t2body1-1" id="270t2body1-1"></a>スカイツイスタープレス（パターン1）</b><br>
+          ＝カンクーントルネード（ウルティモドラゴン）＝テングトルネード（テングカイザー）<BR>
+          ＝カミカゼトルネード（神風）＝スーパーダンスversion2（Hi69）＝ヤンタイム（ジミー・ヤン）<br>
+          ＝開運トルネード（えべっさん）＝関空トルネード（食いしんぼう仮面）＝ハリケーンプレス（南条隼人）</td>
+      </tr>
+      <tr>
+        <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%a4%e3%83%b3%e3%82%bf%e3%82%a4%e3%83%a0%ef%bc%88%e3%82%b8%e3%83%9f%e3%83%bc%e3%83%bb%e3%83%a4%e3%83%b3%ef%bc%89.wmv"></iframe><br>
+          <iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%82%b9%e3%82%ab%e3%82%a4%e3%83%84%e3%82%a4%e3%82%b9%e3%82%bf%e3%83%bc%e3%83%97%e3%83%ac%e3%82%b9to%e5%a0%b4%e5%a4%96%ef%bc%88%e3%83%86%e3%83%83%e3%83%89%e3%83%bb%e3%83%8f%e3%83%bc%e3%83%88%ef%bc%89.wmv"></iframe>
+        </td>
+      </tr>
+      <tr>
+        <td>リング外を向きながらコーナートップに立ち、飛んで後方270度回転と1回捻り（横方向360度回転）を同時に行いつつボディプレス。<br>
+          　元体操選手のチャパリータASARIが今は亡き全女の入団テストのために準備して披露したという超高難度技。縦回転＋横回転の飛び技としてはこれが始めてか。今なお絶対的な地位を譲らないのも頷けるというもの。人気があり使い手はかなり多いが、人によって非常にフォームに差が出る。<br>
+          　使い手に関しては発表されてからの数年が一番多く、ウルティモドラゴンやえべっさんが有名だった。また棚橋弘至も一時期使っていた他、あの技制限が厳しいことで有名なWWEでもジョン・モリスンがジョニー・ナイトロ名義の時に繋ぎ技として（！）使っていた。<br>
+          　しかし意外なことに、今現在常用しているレスラーはジミー・ヤンぐらいしかいない。<br>
+          <br>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270t3leg1-1" id="270t3leg1-1"></a>インフラレッド</b><br>
+          ＝オープンハートサージェリー（パターン2／テディ・ハート）＝スカイツイスタープレス（パターン2／チャパリータASARI）</td>
+      </tr>
+      <tr>
+        <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%83%ac%e3%83%83%e3%83%89%ef%bc%88%e3%82%a2%e3%83%a1%e3%83%bc%e3%82%b8%e3%83%b3%e3%82%b0%e3%83%bb%e3%83%ac%e3%83%83%e3%83%89%ef%bc%89.wmv"></iframe>
+        </td>
+      </tr>
+      <tr>
+        <td>リング外を向いてコーナートップに立ち、飛んで後方270度回転と1回半捻り（横方向540度回転）を同時に行いつつレッグドロップ。<BR>
+          　初期ROHマットなどで活躍した飛び技師・アメージングレッドのフィニッシュムーブの一つ。スカイツイスタープレスから更に180度回転してレッグドロップするという神業。ただしコントロールは相当悪いため、受ける相手はかなりの覚悟を要求されるだろう。<br>
+          　ちなみにオープンハートサージェリーがパターン2となっているのは、実は「スパイラルタップ」（前方回転系の項目で掲載）とほぼ同形の技もオープンハートサージェリーと呼ばれているらしいので。<br>
+          　今までずっとアメージング・レッドが最初だと思っていたが、某スレにて実はチャパリータASARIが「スカイツイスタープレス」の名前でこちらの形も使っていたことが判明。どうもプレスの形だと膝を強打するためもう半回転多く回っていたらしい。とんでもない話である。<br>
+          <br>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="270t3legX-1" id="270t3legX-1"></a>スワンダイブ式インフラレッド</b></td>
+      </tr>
+      <tr>
+        <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx?path=%2f%u516c%u958b%2f%u30b9%u30ef%u30f3%u30c0%u30a4%u30d6%u5f0f%u30a4%u30f3%u30d5%u30e9%u30ec%u30c3%u30c9%uff08%u30b8%u30e3%u30c3%u30af%u30fb%u30a8%u30f4%u30a1%u30f3%u30b9%uff09.wmv"></iframe>
+        </td>
+      </tr>
+      <tr>
+        <td>トップロープに飛び乗り、ロープを踏んだ反動を使って更に飛び、後方270度回転と1回半捻り（横方向540度回転）を同時に行いつつレッグドロップを放つ。
+          <br>
+          <br>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td bgcolor="#99CCFF"><b></b><b><a name="360elbow2-1" id="360elbow2-1"></a>ラ・ブファドーラ＋180°</b></td>
+      </tr>
+      <tr>
+        <td>セカンドロープに飛び乗り、ロープの反動で高く飛び上がり、後方360度回転して、立っている相手に対してバックエルボーを放つ。<br>
+          　義経の持ち技の一つ。かなり無茶で、魅せ技としては一級品だが、流石にバックエルボーでは技の説得力として物足りない。<br>
+          <br>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="360ddt2-1" id="360ddt2-1"></a>フェノメノンDDT</b></td>
+      </tr>
+      <tr>
+        <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx/%e5%85%ac%e9%96%8b/%e3%83%95%e3%82%a7%e3%83%8e%e3%83%a1%e3%83%8e%e3%83%b3DDT%ef%bc%88AJ%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%82%ba%ef%bc%89.wmv"></iframe>
+        </td>
+      </tr>
+      <tr>
+        <td>セカンドロープに飛び乗り、ロープの反動で高く飛び上がり、リング内の立っている敵に対して後方1回転しながら相手の首を掴みつつ、敵の背後〜側面に着地する。そこから敵と一緒に後方に倒れて、相手の頭を打ち付ける。<br>
+          　AJスタイルズの常用ムーブとして有名だが、日本では石森太二も時々使っている。高い運動能力と正確さを基に成立する難しい技であることは分かるが、ちょっと奇をてらいすぎなような気もしなくはない。<br>
+          <br>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td bgcolor="#99CCFF"><b></b><b><a name="360knee1-1" id="360knee1-1"></a>ムーンサルトダブルニードロップ</b></td>
+      </tr>
+      <tr>
+        <td>リング外を向いてコーナートップに立ち、飛んで後方360度回転しつつダブルニードロップ。<BR>
+          　ムーンサルトフットスタンプから発想を得たか。両膝を落とすえげつない技。KUDOが使っているらしいが、スタンディング版は他の選手も時々使うのを見かける。<br>
+          <br>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="360foot1-1" id="360foot1-1"></a>ムーンサルトフットスタンプ<br>
+          </b>＝リープ・オブ・フェイス（ラッカス）</td>
+      </tr>
+      <tr>
+        <td>リング外を向いてコーナートップに立ち、飛んで後方360度回転しつつフットスタンプ。<BR>
+          　女子プロが生んだ最凶最悪の飛び技。福岡晶がフィニッシュムーブとして使用して一時代を築いたが、あまりにもコントロールが難しく、受け手にダメージが行き過ぎるため、使い手はほとんどいない。<br>
+          <br>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="360ddt2-1" id="360ddt2-1"></a>フェノメノンDDT</b></td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+      <tr>
+        <td>セカンドロープに飛び乗り、ロープの反動で高く飛び上がり、リング内の立っている敵に対して後方1回転しながら相手の首を掴みつつ、敵の背後〜側面に着地する。そこから敵と一緒に後方に倒れて、相手の頭を打ち付ける。<br>
+          　AJスタイルズの常用ムーブ。日本では石森太二も使う。高い運動能力と正確さを基に成立する難しい技であることは分かるが、ちょっと奇をてらいすぎなような気もする。<br>
+          <br>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td bgcolor="#99CCFF"><b></b><b><a name="450senton1-1" id="450senton1-1"></a>セントーン・レベルサ</b><br>
+          ＝スーサイドボム（MIKAMI）</td>
+      </tr>
+      <tr>
+        <td>リング外を向いてコーナートップに立ち、飛んで後方450度回転しつつセントーン。<BR>
+          　使い手は少なくグレートサスケとMIKAMIだけか。他にもできる者はいるだろうが、コントロールに難があること、後方飛び系セントーンはイマイチ見栄えが悪いことから敬遠されているように感じる。<br>
+          <br>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <table width="75%" border="1">
+      <tr>
+        <td bgcolor="#99CCFF"><b><a name="630body1-1" id="630body1-1"></a>ダブル・ムーンサルト<br>
+          </b>＝SOS（Splash Of Suicide）（MIKAMI）＝スタンティン101（Stuntin' 101）（ジャック・エヴァンス）</td>
+      </tr>
+      <tr>
+        <td><iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+            style="width:240px;height:26px;margin:3px;padding:0;border:1px solid #dde5e9;background-color:#ffffff;"
+            src="http://cid-85b730bb972d1116.skydrive.live.com/embedrow.aspx?path=%2f%u516c%u958b%2f%u30b9%u30bf%u30f3%u30c6%u30a3%u30f3101from%u30b1%u30fc%u30b8%u30c8%u30c3%u30d7%uff08%u30b8%u30e3%u30c3%u30af%u30fb%u30a8%u30f4%u30a1%u30f3%u30b9%uff09.wmv"></iframe>
+        </td>
+      </tr>
+      <tr>
+        <td>リング外を向いてコーナートップに立ち、飛んで後方630度回転しつつボディプレス。2回転ムーンサルト。<br>
+          　最初に実戦投入を果たしたのはジャック・エヴァンスだが、彼でさえケージトップから繰り出したり、スワンダイブ式で場外に向かったりして放つのみで、コーナートップからリング内へ成功させたことはない。日本人ではDDTのMIKAMIが公開練習にてラダートップから繰り出したが実戦で使うには至らなかった。<br>
+          　ジャック・エヴァンスを始めとしたとびきりの飛び技師でも無理だったことから、「ダブルムーンサルトをコーナートップからやるのは人間には無理」とさえ考えられていたが、ついにCZWやIWAミッドサウスなど米インディで活動するリコシェ（Ricochet）がコーナートップからリング内へ成功させた。その後も時々フィニッシュムーブに使用しているようだ。<br>
+          <br>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <hr color="#000000" size="1">
+    <br>
+    <br>
+    <br>
+    <a href="../move.htm">技研究トップに戻る</a> <br>
+    <br>
+  </div>
 </body>
+
 </html>
