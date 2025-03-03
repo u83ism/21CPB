@@ -1,0 +1,22 @@
+{
+  "name": "21cpb",
+  "version": "1.0.0",
+  "main": "age.js",
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsc",
+    "extract": "ts-node extractData.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^22.13.8",
+    "jsdom": "^26.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.7"
+  }
+}
